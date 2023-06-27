@@ -50,9 +50,9 @@
     </nav>
 
     <!-- Main container for side navigation menu -->
-    <div class="container-fluid">
-      <!-- Rows within the side nagivation menu container. Set to nowrap -->
-      <div class="row flex-nowrap">
+    <div class="container-fluid d-inline-flex">
+      <!-- Rows within the side navigation menu container. Set to nowrap -->
+      <div class="col-md-2">  <!-- IF I CHANGE THIS TO D-INLINE FLEX SOMETHING WEIRD HAPPENS...WHAT'S WHAT WHITE SPACE??? -->
         <!-- Columns within the side navigation menu container. -->
         <div class="sidenav flex-column col-auto align-items-center align-items-sm-start min-vh-100 px-3 pt-3 bg-dark"> 
           <span class="fs-5 d-none d-sm-inline">Filter By</span>
@@ -132,82 +132,62 @@
           </ul>
           <hr>
         </div>
-        <!-- Search container to type words. No validation inside HTML. Use JS. -->
-        <div class="col">
-          <div class="container searchcontainer">
-            <div class="row align-items-center">
-              <div class="mx-auto gx-5 my-5 d-block justify-content-center">
-                <form class="searchform d-flex" role="search">
-                  <input class="form-control me-2 inputtext" type="search" placeholder="Search A Word Pattern" aria-label="Search">
-                    <button class="btn searchbutton bg-dark" type="submit">Search</button>
-                  </input>
-                </form>
-<!--                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <button class="btn btn-secondary btn-sm dropdown-toggle mt-5 bg-dark" type="button" id="sortoptionsbutton" data-bs-toggle="dropdown" aria-expanded="false">
-                    Sort By... 
-                  </button> 
-                   <ul class="dropdown-menu" aria-labelledby="sortoptionsmenu">
-                    <li><a class="dropdown-item" href="#">Alphabetical (a - z)</a></li>
-                    <li><a class="dropdown-item" href="#">Alphabetical (z - a)</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Frequency (most - least)</a></li>
-                    <li><a class="dropdown-item" href="#">Frequency (least - most)</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Length (shortest to longest)</a></li>
-                    <li><a class="dropdown-item" href="#">Length (longest to shortest)</a></li>
-                  </ul>                  
-                </div>
-              -->
-              <div class="mt-5">
-                <table class="table table-hover table-dark table-striped my-5" id="results_table">
-                  <thead>
-                    <tr>
-                      <th class="tableheader" scope="col"></th>
-                      <th class="tableheader" scope="col">Word</th>
-                      <th class="tableheader" scope="col">Frequency</th>
-                      <th class="tableheader" scope="col">Syllables</th>
-                      <th class="tableheader" scope="col">Length</th>
-                      <th class="tableheader" scope="col">Concept</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr data-child-name="test1" data-child-value="10">
-                      <td class="dt-control"></td>
-<!--                  <th scope="row">1</th> -->
-                      <td>Apple</td>
-                      <td>12</td>
-                      <td>2</td>
-                      <td>5</td>
-                      <td>Consonant LE</td>
-                    </tr>
-                    <tr>
-                      <td class=" dt-control"></td>
- <!--                 <th scope="row">2</th> -->
-                      <td>Banana</td>
-                      <td>38</td>
-                      <td>3</td>
-                      <td>6</td>
-                      <td>aa</td>
-                    </tr>
-                    <tr>
-                      <td class=" dt-control"></td>
-<!--                  <th scope="row">3</th> -->
-                      <td>Pineapple</td>
-                      <td>100</td>
-                      <td>3</td>
-                      <td>9</td>
-                      <td>Silent e, le</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              </div>
-            </div>
-          </div>
+      </div>
+      <!-- Search container to type words. No validation inside HTML. Use JS. -->
+      <div class="col">
+        <div class="row">
+          <form class="searchform my-5 d-inline-flex" role="search">
+            <input class="form-control me-2 inputtext" type="search" placeholder="Search a word or a word pattern" aria-label="Search">
+              <button class="btn searchbutton bg-dark" type="submit">Search</button>
+            </input>
+          </form>
+        </div>
+        <div class="row">
+          <table class="table table-hover table-dark table-striped" id="results_table">
+            <thead>
+              <tr>
+                <th class="tableheader" scope="col"></th>
+                <th class="tableheader" scope="col">Word</th>
+                <th class="tableheader" scope="col">Frequency</th>
+                <th class="tableheader" scope="col">Syllables</th>
+                <th class="tableheader" scope="col">Length</th>
+                <th class="tableheader" scope="col">Concept</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-child-name="test1" data-child-value="10">
+                <td class="dt-control"></td>
+                <!--<th scope="row">1</th> -->
+                <td>Apple</td>
+                <td>12</td>
+                <td>2</td>
+                <td>5</td>
+                <td>Consonant LE</td>
+              </tr>
+              <tr>
+                <td class=" dt-control"></td>
+                <!-- <th scope="row">2</th> -->
+                <td>Banana</td>
+                <td>38</td>
+                <td>3</td>
+                <td>6</td>
+                <td>aa</td>
+              </tr>
+              <tr>
+                <td class=" dt-control"></td>
+                <!--<th scope="row">3</th> -->
+                <td>Pineapple</td>
+                <td>100</td>
+                <td>3</td>
+                <td>9</td>
+                <td>Silent e, le</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
-<!--    <script src="script.js"></script> -->
+    <!--<script src="script.js"></script> -->
     <script>
       var resultsTable;
       // Data table initializaton with some properties
@@ -247,7 +227,7 @@
 
       function format (name, value)
       {
-         return '<div>Name: ' + name + '<br />Value: ' + value + '</div>';
+        return '<div>Name: ' + name + '<br />Value: ' + value + '</div>';
       }
 
     </script>
