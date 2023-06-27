@@ -1,0 +1,9 @@
+.disabled
+{
+    visibility: hidden;
+}
+/** Setting text color to wheat **/
+.sidenavlink, .nav-link, .navbar-brand, .tableheader, .searchbutton, .sidenav, .topnav, .topnavbar, #sortoptionsbutton
+{
+    color: wheat;
+}

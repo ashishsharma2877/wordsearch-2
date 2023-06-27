@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Only change in header is to add bootstrap CSS and a custom stylesheet -->
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Word Search</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Javascript from Bootstrap and DataTable-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <!--Top navigation menu-->
+    <nav class="navbar topnavbar navbar-expand-lg bg-dark">
+      <div class="container topnavcontainer">
+        <a class="navbar-brand" href="#">Word Search</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">How To Guide</a></li>
+                  <li><a class="dropdown-item" href="#">List Of All Words</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Contribute A Word</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main container for side navigation menu -->
+    <div class="container-fluid">
+      <!-- Rows within the side nagivation menu container. Set to nowrap -->
+      <div class="row flex-nowrap">
+        <!-- Columns within the side navigation menu container. -->
+        <div class="sidenav flex-column col-auto align-items-center align-items-sm-start min-vh-100 px-3 pt-3 bg-dark"> 
+          <span class="fs-5 d-none d-sm-inline">Filter By</span>
+          <hr>
+          <!-- Section for setting word length min and max. No validation in HTML. Use JS. -->
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li>
+              <span class="ms-1 d-none d-sm-inline">Word Length</span>
+              <span class=" nav flex-column ms-1" id="wordlengthmenu" data-bs-parent="#menu">
+                <li>
+                  <div class="my-3"> 
+                    <span class="d-none d-sm-inline">
+                      <label class = "ms-1" for="minlength">Min: </label>
+                      <input class="ms-1" type="number" name="minlength" id="minlength"
+                        min="1"
+                        max="20"
+                        step="1"
+                        value="1">
+                      </input>
+                      <label class = "ms-1" for="minlength">Max: </label>
+                      <input class="ms-1" type="number" name="minlength" id="minlength"
+                        min="1"
+                        max="20"
+                        step="1"
+                        value="20">
+                      </input>
+                    </span>
+                  </div>
+                </li>
+              </span>
+            </li>
+          </ul>
+          <hr>
+          <!-- Section for picking concept group - one choice only. Depending on this selection
+          the subsequent sections will be populated dynamically-->
+          <span class="ms-1 d-none d-sm-inline">Concept Group</span>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start">
+            <div class="my-3">
+              <span class="d-none d-sm-inline"></span>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault0" checked>
+                <label class="form-check-label" for="flexRadioDefault0">
+                All Concepts
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                Vowels
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Consonants
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  Affixes (Prefixes / Suffixes)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                <label class="form-check-label" for="flexRadioDefault4">
+                  Bases and Roots
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                <label class="form-check-label" for="flexRadioDefault5">
+                  Concepts and Conventions
+                </label>
+              </div>
+            </div>
+          </ul>
+          <hr>
+        </div>
+        <!-- Search container to type words. No validation inside HTML. Use JS. -->
+        <div class="col">
+          <div class="container searchcontainer">
+            <div class="row align-items-center">
+              <div class="mx-auto gx-5 my-5 d-block justify-content-center">
+                <form class="searchform d-flex" role="search">
+                  <input class="form-control me-2 inputtext" type="search" placeholder="Search A Word Pattern" aria-label="Search">
+                    <button class="btn searchbutton bg-dark" type="submit">Search</button>
+                  </input>
+                </form>
+<!--                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <button class="btn btn-secondary btn-sm dropdown-toggle mt-5 bg-dark" type="button" id="sortoptionsbutton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sort By... 
+                  </button> 
+                   <ul class="dropdown-menu" aria-labelledby="sortoptionsmenu">
+                    <li><a class="dropdown-item" href="#">Alphabetical (a - z)</a></li>
+                    <li><a class="dropdown-item" href="#">Alphabetical (z - a)</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Frequency (most - least)</a></li>
+                    <li><a class="dropdown-item" href="#">Frequency (least - most)</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Length (shortest to longest)</a></li>
+                    <li><a class="dropdown-item" href="#">Length (longest to shortest)</a></li>
+                  </ul>                  
+                </div>
+              -->
+              <div class="mt-5">
+                <table class="table table-hover table-dark table-striped my-5" id="results_table">
+                  <thead>
+                    <tr>
+                      <th class="tableheader" scope="col"></th>
+                      <th class="tableheader" scope="col">Word</th>
+                      <th class="tableheader" scope="col">Frequency</th>
+                      <th class="tableheader" scope="col">Syllables</th>
+                      <th class="tableheader" scope="col">Length</th>
+                      <th class="tableheader" scope="col">Concept</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr data-child-name="test1" data-child-value="10">
+                      <td class="dt-control"></td>
+<!--                  <th scope="row">1</th> -->
+                      <td>Apple</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>5</td>
+                      <td>Consonant LE</td>
+                    </tr>
+                    <tr>
+                      <td class=" dt-control"></td>
+ <!--                 <th scope="row">2</th> -->
+                      <td>Banana</td>
+                      <td>38</td>
+                      <td>3</td>
+                      <td>6</td>
+                      <td>aa</td>
+                    </tr>
+                    <tr>
+                      <td class=" dt-control"></td>
+<!--                  <th scope="row">3</th> -->
+                      <td>Pineapple</td>
+                      <td>100</td>
+                      <td>3</td>
+                      <td>9</td>
+                      <td>Silent e, le</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--    <script src="script.js"></script> -->
+    <script>
+      var resultsTable;
+      // Data table initializaton with some properties
+      $(document).ready
+      (
+        function () 
+        {
+        resultsTable = $('#results_table').DataTable
+        (
+          {
+            lengthMenu: [ 10, 20, 30, 50],
+            rowgroup: true,
+            pagingType: 'full_numbers'       
+          }
+        );
+        }
+      );
+
+      $('#results_table tbody').on('click', 'td.dt-control', function () 
+        {
+            var tr = $(this).closest('tr');
+            var row = resultsTable.row(tr);
+    
+            if (row.child.isShown()) 
+            {
+                // This row is already open - close it
+                row.child.hide();
+                tr.removeClass('shown');
+            } else 
+            {
+                // Open this row
+                row.child(format(tr.data('child-name'), tr.data('child-value'))).show();
+                tr.addClass('shown');
+            }
+        }
+      );
+
+      function format (name, value)
+      {
+         return '<div>Name: ' + name + '<br />Value: ' + value + '</div>';
+      }
+
+    </script>
+  </body>
+</html>
