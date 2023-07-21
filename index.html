@@ -56,36 +56,15 @@
       <div class="d-inline-flex">
         <!-- Columns within the side navigation menu container. -->
         <div class="sidenav bg-light align-items-center align-items-sm-start min-vh-100 px-3 pt-3"> 
-          <span class="fs-5 d-none d-sm-inline">Filter By</span>
-          <hr>
-          <!-- Section for setting word length min and max. No validation in HTML. Use JS. -->
-          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-            <li>
-              <span class="ms-1 d-none d-sm-inline">Word Length</span>
-              <span class=" nav flex-column ms-1" id="wordlengthmenu" data-bs-parent="#menu">
-                <li>
-                  <div class="my-3"> 
-                    <span class="d-none d-sm-inline">
-                      <label class = "ms-1" for="minlength">Min: </label>
-                      <input class="ms-1" type="number" name="minlength" id="minlength"
-                        min="1"
-                        max="20"
-                        step="1"
-                        value="1">
-                      </input>
-                      <label class = "ms-1" for="minlength">Max: </label>
-                      <input class="ms-1" type="number" name="minlength" id="minlength"
-                        min="1"
-                        max="20"
-                        step="1"
-                        value="20">
-                      </input>
-                    </span>
-                  </div>
-                </li>
-              </span>
-            </li>
-          </ul>
+          <!--<span class="d-none d-sm-inline">Filter By</span>
+          <hr> -->
+          <div class="container mt-5">
+            <span class="ms-1 d-none d-sm-inline">Word Length</span>
+            <div class="form-range">
+              <input type="range" class="form-range" min="1" max="10" step="1" id="slider">
+            </div>
+            <div id="sliderValue"></div>
+          </div>
           <hr>
           <!-- Section for picking concept group - one choice only. Depending on this selection
           the subsequent sections will be populated dynamically-->
@@ -133,14 +112,14 @@
           </ul>
           <hr>
           <!-- Mimicking an accordion -->
-          <div class="accordion" id="accordionExample">
+          <div class="accordion" id="spellingConventionsAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#spellingConventions" aria-expanded="false" aria-controls="collapseTwo">
                   Spelling Conventions
                 </button>
               </h2>
-              <div id="spellingConventions" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div id="spellingConventions" class="accordion-collapse collapse show" data-bs-parent="#spellingConventionsAccordion">
                 <ul class="list-group">
                   <li class="list-group-item">
                     <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
@@ -157,13 +136,14 @@
                 </ul>
               </div>
             </div>
+            <hr>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#syllableTypes" aria-expanded="false" aria-controls="collapseThree">
                   Syllable Types
                 </button>
               </h2>
-              <div id="syllableTypes" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div id="syllableTypes" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <ul class="list-group">
                   <li class="list-group-item">
                     <input class="form-check-input me-1" type="checkbox" value="" id="fourthCheckbox">
@@ -237,49 +217,6 @@
         </div>
       </div>
     </div>
-    <!--<script src="script.js"></script> -->
-    <script>
-      var resultsTable;
-      // Data table initializaton with some properties
-      $(document).ready
-      (
-        function () 
-        {
-        resultsTable = $('#results_table').DataTable
-        (
-          {
-            lengthMenu: [ 10, 20, 30, 50],
-            rowgroup: true,
-            pagingType: 'full_numbers'       
-          }
-        );
-        }
-      );
-
-      $('#results_table tbody').on('click', 'td.dt-control', function () 
-        {
-            var tr = $(this).closest('tr');
-            var row = resultsTable.row(tr);
-    
-            if (row.child.isShown()) 
-            {
-                // This row is already open - close it
-                row.child.hide();
-                tr.removeClass('shown');
-            } else 
-            {
-                // Open this row
-                row.child(format(tr.data('child-name'), tr.data('child-value'))).show();
-                tr.addClass('shown');
-            }
-        }
-      );
-
-      function format (name, value)
-      {
-        return '<div>Name: ' + name + '<br />Value: ' + value + '</div>';
-      }
-
-    </script>
+    <script src="datasetup.js"></script>
   </body>
 </html>
