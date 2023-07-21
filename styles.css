@@ -2,7 +2,7 @@
 {
     visibility: hidden;
 }
-/** Setting text color to wheat **/
+/** Setting text color to wheat 
 .sidenavlink, .nav-link, .navbar-brand, .tableheader, .searchbutton, .sidenav, .topnav, .topnavbar, .accordion-button, .dd-checkbox, #sortoptionsbutton
 {
     color: wheat;
@@ -12,7 +12,7 @@
 {
     color: wheat;
 }
-
+**/
 .accordion
 {
     --bs-accordion-button-icon: var(fill ="#ab7c94") ;
