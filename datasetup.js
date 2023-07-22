@@ -18,16 +18,19 @@ $(document).ready
             {
                 lengthMenu: [ 10, 20, 30, 50],
                 rowgroup: true,
-                select: true,
+                select: {
+                    style: 'multi'
+                  },
                 pagingType: 'full_numbers'
             }
         );
-
+/** 
         // Add capability to select multiple rows by reading the click event and
         //  toggling the class list on that row.
-        resultsTable.on('click', 'tbody tr', function (e) {
-        e.currentTarget.classList.toggle('selected');
-});
+        resultsTable.on('click', 'tbody tr', function (e) 
+        {
+            e.currentTarget.classList.toggle('selected');
+        }); */
     }
 );
 
