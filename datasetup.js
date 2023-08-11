@@ -20,17 +20,17 @@ $(document).ready
                 rowgroup: true,
                 select: {
                     style: 'multi'
-                  },
+                },
                 pagingType: 'full_numbers',
             }
         );
- 
+
         resultsTable.on( 'select', function ( e, dt, type, indexes ) {
             if ( type === 'row' ) {
                 var data = resultsTable.rows( indexes ).data().pluck( 'id' );
                 //console.log("The user made a selection! at index " + indexes)
                 var rows = resultsTable.rows(indexes).data();
-                console.log("The user chose the word: " + rows[0][1]);
+                console.log("The user chose the word: " + rows[0][0]);
                 //Add this data to a running list somewhere. 
                 // Another function will remove it from the list upon deselection
             }
@@ -74,4 +74,61 @@ $('#results_table tbody').on('click', 'td.dt-control', function ()
 function format (name, value)
 {
     return '<div>Name: ' + name + '<br />Value: ' + value + '</div>';
+}
+
+
+window.onload = function() {
+    const filename = "words.csv";
+  
+    fetch(filename)
+      .then(response => response.text())
+      .then(csvData => {
+        const dataArray = parseCSV(csvData);
+      })
+      .catch(error => {
+        console.error("Error reading the file:", error);
+      });
+  };
+  
+  function parseCSV(csvData) {
+    const lines = csvData.split("\n");
+    const dataArray = [];
+  
+    for (let i = 0; i < lines.length; i++) {
+      const row = lines[i].trim();
+  
+      if (row !== "") {
+        const columns = row.split(",");
+        dataArray.push(columns);
+      }
+    }
+    console.log(dataArray);
+    populateDataTable(dataArray);
+    return dataArray;
+  }
+
+function addNewRow(word, concepts, frequency, syllables) {
+    resultsTable.row
+        .add([
+             word,
+             frequency,
+             concepts,
+             syllables
+        ])
+        .draw(false);
+}
+
+function populateDataTable(data)
+{
+    var tempWord, tempConcepts, tempFrequency, tempSyllables;
+    for (let i = 0; i < data.length; i++) {
+        for (let j = 0; j < data[i].length; j++) {
+        const value = data[i][j];
+        if(j==0) { tempWord = data[i][j]; }
+        else if(j==1) {tempFrequency = data[i][j]; }
+        else if(j==2) {tempConcepts = data[i][j];}
+        else if(j=3) {tempSyllables = data[i][j];}
+        }
+        addNewRow(tempWord, tempConcepts, tempFrequency, tempSyllables)
+    }
 }

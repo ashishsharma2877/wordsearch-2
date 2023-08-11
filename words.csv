@@ -1,1 +1,51 @@
-word, concept1 concept2 concept3, 339, 1
+word, concept1 concept2 concept3, 339,1
+lab,a l b,2819,1
+ad,a d,2427,1
+bad,a b d,317,1
+dad,a d d,636,1
+had,a h d,44,1
+mad,a m d,2337,1
+sad,a s d,1887,1
+bag,a b g,1561,1
+tag,a t g,5000,1
+Al,a l,500,1
+am,am,172,1
+Sam,am s m,1273,1
+ban,an b,3745,1
+Dan,an d,2200,1
+fan,an f,2016,1
+Jan,an j,2972,1
+man,an m,137,1
+pan,an p,3271,1
+ran,an r,1077,1
+van,an v,1909,1
+map,a m p,2184,1
+tap,a t p,4930,1
+fat,a f t,1270,1
+hat,a h t,2664,1
+pat,a p t,3080,1
+Thad,a th (thin) d,,1
+bid,i b d,4636,1
+did,i d d,63,1
+rid,i r d,2931,1
+big,i b g,189,1
+dig,i d g,4366,1
+fig,i f g,3476,1
+him,i h m,67,1
+Jim,i j m,1365,1
+Tim,i t m,2439,1
+win,i w n,633,1
+bin,i b n,4360,1
+sin,i s n,3485,1
+hip,i h p,4698,1
+tip,i t p,2896,1
+bit,i b t,439,1
+fit,i f t,1333,1
+hit,i h t,531,1
+it,i t,10,1
+lit,i l t,4577,1
+sit,i s t,867,1
+bob,o b b,1183,1
+job,o j b,291,1
+rob,o r b,3863,1
+log,o l g,4642,1

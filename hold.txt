@@ -1,0 +1,24 @@
+              <tr data-child-name="test1" data-child-value="10"> 
+                <td class="dt-control"></td>
+                <td>Apple</td>
+                <td>12</td> <!--
+                <td>2</td>
+                <td>5</td>-->
+                <td>Consonant LE</td>
+              </tr>
+              <tr>
+                <td class=" dt-control"></td>
+                <td>Banana</td>
+                <td>38</td> <!--
+                <td>3</td>
+                <td>6</td>-->
+                <td>aa</td>
+              </tr>
+              <tr>
+                <td class=" dt-control"></td>
+                <td>Pineapple</td>
+                <td>100</td> <!--
+                <td>3</td>
+                <td>9</td> -->
+                <td>Silent e, le</td>
+              </tr>
