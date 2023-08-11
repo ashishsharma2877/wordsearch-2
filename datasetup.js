@@ -22,7 +22,20 @@ $(document).ready
                     style: 'multi'
                 },
                 pagingType: 'full_numbers',
+                columnDefs: [
+                    { // Frequency
+                        target: 2,
+                        visible: true,
+                        searchable: false
+                    },
+                    { // # of syllables
+                        target: 3,
+                        visible: false
+                    }
+                ]
+    
             }
+
         );
 
         resultsTable.on( 'select', function ( e, dt, type, indexes ) {
