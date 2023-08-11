@@ -112,7 +112,7 @@
           <hr>
           <!-- Mimicking an accordion -->
           <div class="accordion" id="spellingConventionsAccordion">
-            <div class="accordion-item">
+            <div class="accordion-item d-none">
               <h2 class="accordion-header">
                 <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#spellingConventions" aria-expanded="false" aria-controls="collapseTwo">
                   Spelling Conventions
@@ -136,7 +136,7 @@
               </div>
             </div>
             <hr>
-            <div class="accordion-item">
+            <div class="accordion-item d-none">
               <h2 class="accordion-header">
                 <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#syllableTypes" aria-expanded="false" aria-controls="collapseThree">
                   Syllable Types
@@ -166,13 +166,13 @@
       <div class="col mx-3">
         <div class="row">
           <form class="searchform my-5 d-inline-flex" role="search">
-            <input class="form-control me-2 inputtext" type="search" placeholder="Search a specific word pattern" aria-label="Search">
-              <button class="btn searchbutton" type="submit">Search</button>
+            <input class="form-control me-2 inputtext" id="searchBar" type="search" placeholder="Search a specific word or word pattern" aria-label="Search">
+              <!-- <button class="btn searchbutton" type="submit">Search</button> -->
             </input>
           </form>
         </div>
         <div class="row">
-          <table class="table table-hover table-striped" id="results_table">
+          <table class="table table-hover table-striped cell-border" id="results_table">
             <thead>
               <tr>
                 <!-- <th class="tableheader" scope="col"></th> -->
@@ -207,6 +207,7 @@
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
     <script src="https://cdn.datatables.net/select/1.7.0/js/dataTables.select.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.bootstrap5.min.js"></script>    
     <script src="datasetup.js"></script>
     <!-- <script src="datatable.js"></script> --> 

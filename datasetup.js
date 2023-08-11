@@ -16,6 +16,10 @@ $(document).ready
         resultsTable = $('#results_table').DataTable
         (
             {
+                // Take a look at the sDom reference in DataTables to really understand how to set this property.
+                //"sDom": 'lrtip', 
+                "sDom": '<"top"i>rt<"bottom"lp><"clear">',
+                //dom: '<"toolbar">lrtip',
                 lengthMenu: [ 10, 20, 30, 50],
                 rowgroup: true,
                 select: {
@@ -37,6 +41,11 @@ $(document).ready
             }
 
         );
+
+        // Of you add a custom toolbar item into dataTables, use the sDom property in the initialization
+        // to create the div for it. Then use the querySelector to add stuff into it.
+        //document.querySelector('div.toolbar').innerHTML = '<b>Custom tool bar! Text/images etc.</b>';
+
 
         resultsTable.on( 'select', function ( e, dt, type, indexes ) {
             if ( type === 'row' ) {
@@ -64,6 +73,11 @@ document.querySelector('#button').addEventListener('click', function () {
     alert(resultsTable.rows('.selected').data().length + ' row(s) selected');
 });
 */
+
+// #searchBar is a <input type="text"> element
+$('#searchBar').on( 'keyup', function () {
+    resultsTable.search( this.value ).draw();
+} );
 
 $('#results_table tbody').on('click', 'td.dt-control', function () 
     {
