@@ -21,9 +21,20 @@ $(document).ready
                 select: {
                     style: 'multi'
                   },
-                pagingType: 'full_numbers'
+                pagingType: 'full_numbers',
             }
         );
+ 
+        resultsTable.on( 'select', function ( e, dt, type, indexes ) {
+            if ( type === 'row' ) {
+                var data = resultsTable.rows( indexes ).data().pluck( 'id' );
+                //console.log("The user made a selection! at index " + indexes)
+                var rows = resultsTable.rows(indexes).data();
+                console.log("The user chose the word: " + rows[0][1]);
+                //Add this data to a running list somewhere. 
+                // Another function will remove it from the list upon deselection
+            }
+        } );
 /** 
         // Add capability to select multiple rows by reading the click event and
         //  toggling the class list on that row.
