@@ -10,7 +10,7 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
       <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.bootstrap5.min.css">
       <link rel="stylesheet" href="https://cdn.datatables.net/select/1.7.0/css/select.dataTables.min.css">
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="/styles/styles.css">
   </head>
   <body>
     <!--Top navigation menu-->
@@ -56,13 +56,27 @@
         <div class="sidenav bg-light align-items-center align-items-sm-start min-vh-100 px-3 pt-3"> 
           <!--<span class="d-none d-sm-inline">Filter By</span>
           <hr> -->
+          <!--
           <div class="container mt-5">
             <span class="ms-1 d-none d-sm-inline">Number of syllables:
               <text id="sliderValue">
             </span>
             <div class="form-range">
-              <input type="range" class="form-range" min="1" max="10" step="1" id="slider">
+              <input type="range" class="form-range" min="1" max="6" step="1" id="slider">
             </div>
+          </div>-->
+          <div class="dropdown my-3">
+            <button class="btn btn-primary dropdown-toggle bg-body-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              No. of Syllables
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">1</a></li>
+              <li><a class="dropdown-item" href="#">2</a></li>
+              <li><a class="dropdown-item" href="#">3</a></li>
+              <li><a class="dropdown-item" href="#">4</a></li>
+              <li><a class="dropdown-item" href="#">5</a></li>
+              <li><a class="dropdown-item" href="#">6</a></li>
+            </ul>
           </div>
           <hr>
           <!-- Section for picking concept group - one choice only. Depending on this selection
@@ -70,49 +84,73 @@
           <span class="ms-1 d-none d-sm-inline">Concept Group</span>
           <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start">
             <div class="my-3">
-              <span class="d-none d-sm-inline"></span>
+              <span class="d-none d-sm-inline"></span> <!--
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault0" checked>
-                <label class="form-check-label" for="flexRadioDefault0">
+                <input class="form-check-input" name="conceptOptions" type="radio" id="allConcepts" checked>
+                <label class="form-check-label" for="allConcepts">
                 All Concepts
                 </label>
-              </div>
+              </div> -->
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
+                <input class="form-check-input" name="conceptOptions" type="radio" id="graphemesButton">
+                <label class="form-check-label" for="graphemesButton">
                 Graphemes
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                <label class="form-check-label" for="flexRadioDefault2">
+                <input class="form-check-input" name="conceptOptions" type="radio" id="spellingConventionsButton">
+                <label class="form-check-label" for="spellingConventionsButton">
                   Spelling Conventions
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                <label class="form-check-label" for="flexRadioDefault3">
+                <input class="form-check-input" name="conceptOptions" type="radio" id="syllableTypesButton">
+                <label class="form-check-label" for="syllableTypesButton">
                   Syllable Types
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                <label class="form-check-label" for="flexRadioDefault4">
+                <input class="form-check-input" name="conceptOptions" type="radio" id="morphemesButton">
+                <label class="form-check-label" for="morphemesButton">
                   Morphemes
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                <label class="form-check-label" for="flexRadioDefault5">
+                <input class="form-check-input" name="conceptOptions" type="radio" id="conceptsConventionsButton">
+                <label class="form-check-label" for="conceptsConventionsButton">
                   Concepts and Conventions
                 </label>
               </div>
             </div>
           </ul>
-          <hr>
+          <!-- <hr> -->
           <!-- Mimicking an accordion -->
-          <div class="accordion" id="spellingConventionsAccordion">
-            <div class="accordion-item d-none">
+          <div class="accordion">
+            <div class="accordion-item d-none" id= "graphemesAccordion" name="accordionOptions">
+              <h2 class="accordion-header">
+                <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#graphemes" aria-expanded="false" aria-controls="collapseTwo">
+                  Graphemes
+                </button>
+              </h2>
+              <div id="graphemes" class="accordion-collapse collapse show" data-bs-parent="#graphemesAccordion">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="dd-checkbox form-check-label" for="firstCheckbox">First checkbox</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="dd-checkbox form-check-label" for="secondCheckbox">Second checkbox</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="dd-checkbox form-check-label" for="thirdCheckbox">Third checkbox</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <hr> -->
+            <div class="accordion-item d-none" id= "spellingConventionsAccordion" name="accordionOptions">
               <h2 class="accordion-header">
                 <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#spellingConventions" aria-expanded="false" aria-controls="collapseTwo">
                   Spelling Conventions
@@ -135,8 +173,8 @@
                 </ul>
               </div>
             </div>
-            <hr>
-            <div class="accordion-item d-none">
+            <!-- <hr> -->
+            <div class="accordion-item d-none" id="syllableTypesAccordion" name="accordionOptions">
               <h2 class="accordion-header">
                 <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#syllableTypes" aria-expanded="false" aria-controls="collapseThree">
                   Syllable Types
@@ -159,6 +197,55 @@
                 </ul>
               </div>
             </div>
+            <!-- <hr> -->
+            <div class="accordion-item d-none" id= "morphemesAccordion" name="accordionOptions">
+              <h2 class="accordion-header">
+                <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#morphemes" aria-expanded="false" aria-controls="collapseTwo">
+                  Morphemes
+                </button>
+              </h2>
+              <div id="morphemes" class="accordion-collapse collapse show" data-bs-parent="#morphemesAccordion">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="dd-checkbox form-check-label" for="firstCheckbox">First checkbox</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="dd-checkbox form-check-label" for="secondCheckbox">Second checkbox</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="dd-checkbox form-check-label" for="thirdCheckbox">Third checkbox</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <hr> -->
+            <div class="accordion-item d-none" id= "conceptsConventionsAccordion" name="accordionOptions">
+              <h2 class="accordion-header">
+                <button class="bg-light accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conceptsConventions" aria-expanded="false" aria-controls="collapseTwo">
+                  Concepts & Conventions
+                </button>
+              </h2>
+              <div id="conceptsConventions" class="accordion-collapse collapse show" data-bs-parent="#conceptsConventionsAccordion">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                    <label class="dd-checkbox form-check-label" for="firstCheckbox">First checkbox</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                    <label class="dd-checkbox form-check-label" for="secondCheckbox">Second checkbox</label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                    <label class="dd-checkbox form-check-label" for="thirdCheckbox">Third checkbox</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <hr> -->
           </div>
         </div>
       </div>
@@ -209,7 +296,8 @@
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.bootstrap5.min.js"></script>    
-    <script src="datasetup.js"></script>
+    <script src="/scripts/datasetup.js"></script>
+    <script src="/scripts/events.js"></script>
     <!-- <script src="datatable.js"></script> --> 
   </body>
 </html>

@@ -1,11 +1,12 @@
 
+/**
 const slider = document.getElementById('slider');
 const sliderValue = document.getElementById('sliderValue');
 sliderValue.textContent = slider.value;
 slider.addEventListener('input', function () {
     sliderValue.textContent = slider.value;
 });
-
+**/
 var resultsTable;
 // Data table initializaton with some properties
 $(document).ready
@@ -105,7 +106,7 @@ function format (name, value)
 
 
 window.onload = function() {
-    const filename = "words.csv";
+    const filename = "/data/words.csv";
   
     fetch(filename)
       .then(response => response.text())
@@ -129,7 +130,6 @@ window.onload = function() {
         dataArray.push(columns);
       }
     }
-    console.log(dataArray);
     populateDataTable(dataArray);
     return dataArray;
   }
