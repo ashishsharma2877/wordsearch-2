@@ -1,24 +1,7 @@
-              <tr data-child-name="test1" data-child-value="10"> 
-                <td class="dt-control"></td>
-                <td>Apple</td>
-                <td>12</td> <!--
-                <td>2</td>
-                <td>5</td>-->
-                <td>Consonant LE</td>
-              </tr>
-              <tr>
-                <td class=" dt-control"></td>
-                <td>Banana</td>
-                <td>38</td> <!--
-                <td>3</td>
-                <td>6</td>-->
-                <td>aa</td>
-              </tr>
-              <tr>
-                <td class=" dt-control"></td>
-                <td>Pineapple</td>
-                <td>100</td> <!--
-                <td>3</td>
-                <td>9</td> -->
-                <td>Silent e, le</td>
-              </tr>
+Things that need to get done in September/ October:
+
+1. Fix the bug with the dropdown on Graphemes. It scrolls very large.
+2. Add a selection bubble on each set of concept groups to show how many in that group were selected
+3. Make a list of selected concepts that can be viewed
+4. Make a drag/drop so words can be added or removed to and from lists. Or make them data tables if that helps.
+5. Enable print /save functionality so a list of words can be printed or saved as PDF
