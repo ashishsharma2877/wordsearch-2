@@ -14,3 +14,13 @@
 }
 **/
 
+
+#graphemesGroup,
+#syllableDivisionGroup,
+#syllableTypesGroup,
+#morphemesGroup,
+#spellingConventionsGroup
+{
+    height: 400px; 
+    overflow-y: scroll;
+}
