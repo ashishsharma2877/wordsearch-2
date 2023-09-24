@@ -28,6 +28,12 @@ $(document).ready
                 },
                 pagingType: 'full_numbers',
                 columnDefs: [
+                    // Concept
+                    {
+                        target: 1,
+                        visible: true,
+                        searchable: false
+                    },
                     { // Frequency
                         target: 2,
                         visible: true,
@@ -37,43 +43,48 @@ $(document).ready
                         target: 3,
                         visible: false
                     }
+                ],
+                buttons:
+                [
+                    'print'
                 ]
     
             }
 
         );
 
-        // Of you add a custom toolbar item into dataTables, use the sDom property in the initialization
+        resultsTable.buttons().container().appendTo( $('.col-sm-6:eq(0)', resultsTable.table().container() ) );
+
+
+        reviewConceptsList - $('#Concepts').DataTable
+        (
+            {
+                "sDom": '<"top"i>rt<"bottom"lpB><"clear">',
+                lengthMenu: [ 10, 20, 30, 50],
+                select: true,
+                pagingType: 'full_numbers',
+                buttons:
+                [
+                    'print',
+                    'pdf'
+                ]
+            }
+        );
+
+        // If you add a custom toolbar item into dataTables, use the sDom property in the initialization
         // to create the div for it. Then use the querySelector to add stuff into it.
         //document.querySelector('div.toolbar').innerHTML = '<b>Custom tool bar! Text/images etc.</b>';
-
 
         resultsTable.on( 'select', function ( e, dt, type, indexes ) {
             if ( type === 'row' ) {
                 var data = resultsTable.rows( indexes ).data().pluck( 'id' );
-                //console.log("The user made a selection! at index " + indexes)
                 var rows = resultsTable.rows(indexes).data();
-                console.log("The user chose the word: " + rows[0][0]);
-                //Add this data to a running list somewhere. 
-                // Another function will remove it from the list upon deselection
             }
         } );
-/** 
-        // Add capability to select multiple rows by reading the click event and
-        //  toggling the class list on that row.
-        resultsTable.on('click', 'tbody tr', function (e) 
-        {
-            e.currentTarget.classList.toggle('selected');
-        }); */
     }
 );
 
 
-/** 
-document.querySelector('#button').addEventListener('click', function () {
-    alert(resultsTable.rows('.selected').data().length + ' row(s) selected');
-});
-*/
 
 // #searchBar is a <input type="text"> element
 $('#searchBar').on( 'keyup', function () {
