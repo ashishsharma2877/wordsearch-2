@@ -1,4 +1,11 @@
   
+/** We are importing the concepts table because it will be updated based on 
+ * the user's selection of checkboxes. Based on what is selected or unselected
+ * each time, the concepts table will reflect a filtered view. If the filtered
+ * array is empty, the concepts table will show all values.
+*/
+import { conceptsTable } from "./datasetup.js";
+
 /**
  * This event handling section is all about how the concept radio buttons are populated.
  * Once a concept radio button is clicked, we hide any other concept groups shown and
@@ -11,6 +18,8 @@
 const radioButtons = document.getElementsByName('conceptOptions');
 const accordionOptions = document.getElementsByName('accordionOptions');
 var globalCounter = 0;
+let conceptsArray = [];
+
 
 // Attach the event listener to each concept radio button
 for (let i = 0; i < radioButtons.length; i++) 
@@ -43,6 +52,10 @@ function setupConceptCheckboxListener()
       // Checkbox checked. Increase count. Add to search. Redo search.  
       if (conceptCheckboxArray[i].checked) 
       {
+        // This search works but it only works one time and needs to be fixed.
+        // It was just a test to see if i can search the table from here and I can.
+        // Now I have to pass in an array to this search each time.
+        // conceptsTable.search( parentElement.textContent ).draw();
         updateConceptPill(grandParentElement.id, true);
       } else 
       // Checkbox unchecked. Decrease count. Remove from search. Redo search.

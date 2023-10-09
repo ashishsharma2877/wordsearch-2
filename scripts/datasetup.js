@@ -1,5 +1,8 @@
 var conceptsTable;
 var reviewConceptsList;
+
+export {conceptsTable};
+
 // Data table initializaton with some properties
 $(document).ready
 (
@@ -20,18 +23,20 @@ $(document).ready
                 },
                 pagingType: 'full_numbers',
                 columnDefs: [
-                    // Concept
+                    // Word column, by default is searchable and visible. No configuration needed.
+
+                    // Concept column
                     {
                         target: 1,
                         visible: true,
                         searchable: false
                     },
-                    { // Frequency
+                    { // Frequency colun
                         target: 2,
                         visible: true,
                         searchable: false
                     },
-                    { // # of syllables
+                    { // # of syllables column
                         target: 3,
                         visible: false
                     }
