@@ -3,11 +3,14 @@ const spellingConventions = [];
 const syllableTypes = [];
 const syllableDivision = [];
 const morphemes = [];
+var checkboxCounter = 0;
 
 
 // Function to generate a unique ID
 function generateUniqueID() {
-    return 'checkbox-' + new Date().getTime(); // Using timestamp as ID
+    //return 'checkbox-' + new Date().getTime(); // Using timestamp as ID
+    checkboxCounter+=1; 
+    return 'conceptCheckbox-' + checkboxCounter;
   }
 
 function readConceptsData(file) {
@@ -54,10 +57,10 @@ function readConceptsData(file) {
 
 function populateConcepts(conceptArray, conceptGroup)
 {
-    console.log(conceptGroup)
+    //console.log(conceptGroup)
     const listGroup = document.querySelector(conceptGroup);
-    console.log(conceptArray)
-    console.log(listGroup)
+    //console.log(conceptArray)
+    //console.log(listGroup)
     conceptArray.forEach(function(element)
     {
         // Create the list item element
@@ -70,6 +73,7 @@ function populateConcepts(conceptArray, conceptGroup)
         checkbox.type = 'checkbox';
         checkbox.value = '';
         checkbox.id = generateUniqueID(); // Generate a unique ID for the checkbox
+        //console.log(checkbox.id);
 
         // Create the label element
         const label = document.createElement('label');

@@ -1,20 +1,12 @@
-
-/**
-const slider = document.getElementById('slider');
-const sliderValue = document.getElementById('sliderValue');
-sliderValue.textContent = slider.value;
-slider.addEventListener('input', function () {
-    sliderValue.textContent = slider.value;
-});
-**/
-var resultsTable;
+var conceptsTable;
+var reviewConceptsList;
 // Data table initializaton with some properties
 $(document).ready
 (
     function () 
     {
         // Initialize the data table
-        resultsTable = $('#results_table').DataTable
+        conceptsTable = $('#results_table').DataTable
         (
             {
                 // Take a look at the sDom reference in DataTables to really understand how to set this property.
@@ -53,10 +45,10 @@ $(document).ready
 
         );
 
-        resultsTable.buttons().container().appendTo( $('.col-sm-6:eq(0)', resultsTable.table().container() ) );
+        conceptsTable.buttons().container().appendTo( $('.col-sm-6:eq(0)', conceptsTable.table().container() ) );
 
 
-        reviewConceptsList - $('#Concepts').DataTable
+        reviewConceptsList = $('#Concepts').DataTable
         (
             {
                 "sDom": '<"top"i>rt<"bottom"lpB><"clear">',
@@ -75,10 +67,10 @@ $(document).ready
         // to create the div for it. Then use the querySelector to add stuff into it.
         //document.querySelector('div.toolbar').innerHTML = '<b>Custom tool bar! Text/images etc.</b>';
 
-        resultsTable.on( 'select', function ( e, dt, type, indexes ) {
+        conceptsTable.on( 'select', function ( e, dt, type, indexes ) {
             if ( type === 'row' ) {
-                var data = resultsTable.rows( indexes ).data().pluck( 'id' );
-                var rows = resultsTable.rows(indexes).data();
+                var data = conceptsTable.rows( indexes ).data().pluck( 'id' );
+                var rows = conceptsTable.rows(indexes).data();
             }
         } );
     }
@@ -88,13 +80,13 @@ $(document).ready
 
 // #searchBar is a <input type="text"> element
 $('#searchBar').on( 'keyup', function () {
-    resultsTable.search( this.value ).draw();
+    conceptsTable.search( this.value ).draw();
 } );
 
 $('#results_table tbody').on('click', 'td.dt-control', function () 
     {
         var tr = $(this).closest('tr');
-        var row = resultsTable.row(tr);
+        var row = conceptsTable.row(tr);
 
         if (row.child.isShown()) 
         {
@@ -146,7 +138,7 @@ window.onload = function() {
   }
 
 function addNewRow(word, concepts, frequency, syllables) {
-    resultsTable.row
+    conceptsTable.row
         .add([
              word,
              frequency,

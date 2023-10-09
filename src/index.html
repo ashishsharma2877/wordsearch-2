@@ -92,31 +92,35 @@
                 <label class="form-check-label" for="graphemesButton">
                 Graphemes
                 </label>
-                <span class="badge bg-primary">0</0></span>
+                <span class="badge bg-primary" id="graphemesPill">0</span>
               </div>
               <div class="form-check">
                 <input class="form-check-input" name="conceptOptions" type="radio" id="syllableDivisionButton">
                 <label class="form-check-label" for="syllableDivisionButton">
                   Syllable Division
                 </label>
+                <span class="badge bg-primary" id="syllableDivisionPill">0</span>
               </div>
               <div class="form-check">
                 <input class="form-check-input" name="conceptOptions" type="radio" id="syllableTypesButton">
                 <label class="form-check-label" for="syllableTypesButton">
                   Syllable Types
                 </label>
+                <span class="badge bg-primary" id="syllableTypesPill">0</span>
               </div>
               <div class="form-check">
                 <input class="form-check-input" name="conceptOptions" type="radio" id="morphemesButton">
                 <label class="form-check-label" for="morphemesButton">
                   Morphemes
                 </label>
+                <span class="badge bg-primary" id="morphemesPill">0</span>
               </div>
               <div class="form-check">
                 <input class="form-check-input" name="conceptOptions" type="radio" id="spellingConventionsButton">
                 <label class="form-check-label" for="spellingConventionsButton">
                   Spelling Conventions
                 </label>
+                <span class="badge bg-primary" id="spellingConventionsPill">0</span>
               </div>
             </div>
           </ul>
@@ -130,7 +134,7 @@
                 </button>
               </h2>
               <div id="graphemes" class="accordion-collapse collapse show" style="height: 400px; overflow-y: scroll;"  data-bs-parent="#graphemesAccordion">
-                <ul class="list-group graphemesGroup">
+                <ul class="list-group graphemesGroup" id="graphemesChecks">
                 </ul>
               </div>
             </div>
@@ -142,7 +146,7 @@
                 </button>
               </h2>
               <div id="syllableDivision" class="accordion-collapse collapse show" style="height: 400px; overflow-y: scroll;" data-bs-parent="#syllableDivisionAccordion">
-                <ul class="list-group syllableDivisionGroup">
+                <ul class="list-group syllableDivisionGroup" id="syllableDivisionChecks">
                 </ul>
               </div>
             </div>
@@ -154,7 +158,7 @@
                 </button>
               </h2>
               <div id="syllableTypes" class="accordion-collapse collapse show" style="height: 400px; overflow-y: scroll;" data-bs-parent="#accordionExample">
-                <ul class="list-group syllableTypesGroup">
+                <ul class="list-group syllableTypesGroup" id="syllableTypesChecks">
                 </ul>
               </div>
             </div>
@@ -166,7 +170,7 @@
                 </button>
               </h2>
               <div id="morphemes" class="accordion-collapse collapse show" style="height: 400px; overflow-y: scroll;" data-bs-parent="#morphemesAccordion">
-                <ul class="list-group morphemesGroup">
+                <ul class="list-group morphemesGroup" id="morphemesChecks">
                 </ul>
               </div>
             </div>
@@ -178,7 +182,7 @@
                 </button>
               </h2>
               <div id="spellingConventions" class="accordion-collapse collapse show" style="height: 400px; overflow-y: scroll;" data-bs-parent="#spellingConventionsAccordion">
-                <ul class="list-group spellingConventionsGroup">
+                <ul class="list-group spellingConventionsGroup" id="spellingConventionsChecks">
                 </ul>
               </div>
             </div>
