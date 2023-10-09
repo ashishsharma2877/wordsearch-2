@@ -18,7 +18,7 @@ for (let i = 0; i < radioButtons.length; i++)
   radioButtons[i].addEventListener('click', handleRadioButtonClick);
 }
 
-// Concepts listeners are setup once even a single radio button is clicked. Take a look at the radio button click
+// Concepts checkbox listeners are setup once even a single radio button is clicked. Take a look at the radio button click
 // event to see how this function is called ONE time using a flag. Once setup, it isn't called on subsequent
 // radio button click events.
 function setupConceptCheckboxListener() 
@@ -29,7 +29,7 @@ function setupConceptCheckboxListener()
   var impactedCheckbox;
 
   // Return the selected elements as an array
-  conceptCheckboxArray = Array.from(matchingElements);
+  let conceptCheckboxArray = Array.from(matchingElements);
 
   for (let i=0; i<conceptCheckboxArray.length; i++)
   {
@@ -57,10 +57,15 @@ function setupConceptCheckboxListener()
   }
 }
 
+/*  This function increments or decrements the value of the concept count shown
+  next to each concept group. It is called each time a checkbox is checked or
+  unchecked. 
+*/
+
 function updateConceptPill(conceptName, addRemove)
 {
   let conceptGroupName = conceptName.replace("Checks", "Pill");
-  conceptPill = document.getElementById(conceptGroupName);
+  let conceptPill = document.getElementById(conceptGroupName);
 
   // Find the correct concept pill. If it exists...
   if(conceptPill)
@@ -129,18 +134,3 @@ function handleRadioButtonClick() {
     globalCounter = 1;
   }
 }
-
-/**
- * This section uses the rounded pill badges to be shown against each concept group so you know you have selected
- * 'n' number of concepts from each group. Separately we will show the list of concepts as well but this is a quick
- * visual for the user to know that they've selected non-zero number of concepts from a specific group. This will need to
- * walk through the entire list of concepts in a specific concept group and ensure that if any checkboxes are checked then
- * the rounded pill badge is inserted and we show count inside it. For no checkboxes set, the rounded pill badge will be removed.
-
-function handleConceptSelection
-{
-
-}
-
-
-*/
