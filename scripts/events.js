@@ -44,7 +44,8 @@ dropdownMenu.addEventListener("click", function(event) {
   if (event.target.tagName === "A") {
     const selectedValue = event.target.textContent;
     console.log(`Selected value: ${selectedValue}`);
-    // Add a function here to call the filter on data table and filter by # of syllables.
+    // Call the filter on data table and filter by # of syllables.
+    // filterBySyllableCount(selectedValue);
   }
 }); 
 
