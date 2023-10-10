@@ -23,22 +23,27 @@ $(document).ready
                 },
                 pagingType: 'full_numbers',
                 columnDefs: [
-                    // Word column, by default is searchable and visible. No configuration needed.
-
+                    // Word column
+                    {
+                        target: 0,
+                        visible: true,
+                        searchable: true
+                    },
                     // Concept column
                     {
                         target: 1,
                         visible: true,
-                        searchable: false
+                        searchable: true
                     },
-                    { // Frequency colun
+                    { // Frequency column
                         target: 2,
                         visible: true,
                         searchable: false
                     },
                     { // # of syllables column
                         target: 3,
-                        visible: false
+                        visible: false,
+                        searchable: false
                     }
                 ],
                 buttons:

@@ -35,7 +35,7 @@ function setupConceptCheckboxListener()
 
   // Use querySelectorAll to select elements with matching IDs
   var matchingElements = document.querySelectorAll('[id^="conceptCheckbox"]');
-  var impactedCheckbox;
+  var searchString;
 
   // Return the selected elements as an array
   let conceptCheckboxArray = Array.from(matchingElements);
@@ -49,22 +49,21 @@ function setupConceptCheckboxListener()
       let parentElement = conceptCheckboxArray[i].parentNode;
       let grandParentElement = parentElement.parentNode;
 
-      // Checkbox checked. Increase count. Add to search. Redo search.  
+      // Checkbox checked. Increase count. Add to search array. Redo search on table.  
       if (conceptCheckboxArray[i].checked) 
       {
-        // This search works but it only works one time and needs to be fixed.
-        // It was just a test to see if i can search the table from here and I can.
-        // Now I have to pass in an array to this search each time.
-        // conceptsTable.search( parentElement.textContent ).draw();
         updateConceptPill(grandParentElement.id, true);
+        conceptsArray.push(conceptName);
+        searchString = conceptsArray.join(" ");
+        conceptsTable.column(1).search(searchString).draw();
+        
       } else 
-      // Checkbox unchecked. Decrease count. Remove from search. Redo search.
+      // Checkbox unchecked. Decrease count. Remove from search array. Redo search on table.
       {
         updateConceptPill(grandParentElement.id, false);
-        // Select the label sibling for this element and get the value
-
-        // Remove that from the filter array and filter the concepts table
-
+        conceptsArray = conceptsArray.filter(item => item!== conceptName);
+        searchString = conceptsArray.join(" ");
+        conceptsTable.column(1).search(searchString).draw();
       }
     })
   }
