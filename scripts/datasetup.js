@@ -14,8 +14,8 @@ $(document).ready
             {
                 // Take a look at the sDom reference in DataTables to really understand how to set this property.
                 //"sDom": 'lrtip', 
-                "sDom": '<"top"i>rt<"bottom"lp><"clear">',
-                //dom: '<"toolbar">lrtip',
+                "sDom": '<"top"i>rt<"top"lp><"clear">',
+                //Dom: 'l<"toolbar">rtip',
                 lengthMenu: [ 10, 20, 30, 50],
                 rowgroup: true,
                 select: {
@@ -43,32 +43,32 @@ $(document).ready
                     { // # of syllables column
                         target: 3,
                         visible: false,
-                        searchable: false
+                        searchable: true
                     }
                 ],
-                buttons:
+                buttons: 
                 [
-                    'print'
+                    'print',
+                
                 ]
     
             }
 
         );
 
-        conceptsTable.buttons().container().appendTo( $('.col-sm-6:eq(0)', conceptsTable.table().container() ) );
+        //conceptsTable.buttons().container().appendTo( $('.col-sm-6:eq(0)', conceptsTable.table().container() ) );
 
 
         reviewConceptsList = $('#Concepts').DataTable
         (
             {
-                "sDom": '<"top"i>rt<"bottom"lpB><"clear">',
+                "sDom": 'B<"top"i>rt<"top"lp><"clear">',
                 lengthMenu: [ 10, 20, 30, 50],
                 select: true,
                 pagingType: 'full_numbers',
                 buttons:
                 [
-                    'print',
-                    'pdf'
+                    'print'
                 ]
             }
         );

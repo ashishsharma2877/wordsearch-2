@@ -56,22 +56,11 @@
       <div class="container col-auto">
         <!-- Columns within the side navigation menu container. -->
         <div class="sidenav bg-light align-items-center align-items-sm-start min-vh-100 px-3 pt-3"> 
-          <!--<span class="d-none d-sm-inline">Filter By</span>
-          <hr> -->
-          <!--
-          <div class="container mt-5">
-            <span class="ms-1 d-none d-sm-inline">Number of syllables:
-              <text id="sliderValue">
-            </span>
-            <div class="form-range">
-              <input type="range" class="form-range" min="1" max="6" step="1" id="slider">
-            </div>
-          </div>-->
           <div class="dropdown my-3">
-            <button class="btn btn-primary dropdown-toggle bg-body-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-primary dropdown-toggle bg-body-secondary" type="button" id="dropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
               No. of Syllables
             </button>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu syllable-Dropdown">
               <li><a class="dropdown-item" href="#">1</a></li>
               <li><a class="dropdown-item" href="#">2</a></li>
               <li><a class="dropdown-item" href="#">3</a></li>
@@ -186,7 +175,6 @@
                 </ul>
               </div>
             </div>
-            <!-- <hr> -->
           </div>
         </div>
       </div>
@@ -195,7 +183,6 @@
         <div class="row">
           <form class="searchform my-5 d-inline-flex" role="search">
             <input class="form-control me-2 inputtext" id="searchBar" type="search" placeholder="Search a specific word or word pattern" aria-label="Search">
-              <!-- <button class="btn searchbutton" type="submit">Search</button> -->
             </input>
           </form>
         </div>
@@ -223,36 +210,38 @@
         </div>
         <br></br>
         <br/>
-        <div class="row">
-          <div>
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item" role="presentation"><button class="nav-link active" href="#tab-reviewlist" data-bs-toggle="tab" data-bs-target="#tab-reviewlist">Review Concept List</button></li>
-                <li><button class="nav-link" href="#tab-newlist" data-bs-toggle="tab" data-bs-target="#tab-newlist">New Concept List</button></li>
-            </ul>
-            <div class="tab-content pt-2">
-                <div class="tab-pane show active" id="tab-reviewlist">
-                    <table id="concepts_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th>Word</th>
-                                <th>Concept</th>
-                            </tr>
-                        </thead>
-                    </table>
-                </div>
-                <div class="tab-pane" id="tab-newlist">
-                    <table id="concepts_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th>Word</th>
-                                <th>Concept</th>
-                            </tr>
-                        </thead>
-                    </table>
-                </div>
+        <div>
+          <hr>
+          <!-- <button class="btn btn-primary btn-sm my-3" type="submit">Add concepts to the selected list</button> -->
+          <br>
+          <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item" role="presentation"><button class="nav-link active" href="#tab-reviewlist" data-bs-toggle="tab" data-bs-target="#tab-reviewlist">Review Concept List</button></li>
+              <li><button class="nav-link" href="#tab-newlist" data-bs-toggle="tab" data-bs-target="#tab-newlist">New Concept List</button></li>
+          </ul>
+          <div class="tab-content pt-2">
+            <div class="tab-pane show active" id="tab-reviewlist">
+                  <table id="concepts_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                      <thead>
+                          <tr>
+                              <th>Word</th>
+                              <th>Concept</th>
+                          </tr>
+                      </thead>
+                  </table>
             </div>
+            <div class="tab-pane" id="tab-newlist">
+              <table id="concepts_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                  <thead>
+                      <tr>
+                          <th>Word</th>
+                          <th>Concept</th>
+                      </tr>
+                  </thead>
+              </table>
+            </div>
+            <hr>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
     

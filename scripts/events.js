@@ -20,12 +20,33 @@ const accordionOptions = document.getElementsByName('accordionOptions');
 var globalCounter = 0;
 let conceptsArray = [];
 
-
 // Attach the event listener to each concept radio button
 for (let i = 0; i < radioButtons.length; i++) 
 {
   radioButtons[i].addEventListener('click', handleRadioButtonClick);
 }
+
+
+/** This event handling section is to handle clicks on the syllable dropdown menu
+ *  Once the user clicks on a syllable choice, the existing table - whatever state it is in -
+ * will be filtered on the # of syllables. You can either filter on syllables first or
+ * you can filter on concepts. Order doesn't matter and output is identical. All
+ * searches are on an AND basis.
+ */ 
+
+const dropdownMenu = document.querySelector(".syllable-Dropdown");
+
+// Add an event listener for the "click" event on the dropdown menu
+dropdownMenu.addEventListener("click", function(event) {
+  event.preventDefault(); // Prevent the default link behavior
+
+  // Check if the clicked element is an <a> element inside the dropdown menu
+  if (event.target.tagName === "A") {
+    const selectedValue = event.target.textContent;
+    console.log(`Selected value: ${selectedValue}`);
+    // Add a function here to call the filter on data table and filter by # of syllables.
+  }
+}); 
 
 // Concepts checkbox listeners are setup once even a single radio button is clicked. Take a look at the radio button click
 // event to see how this function is called ONE time using a flag. Once setup, it isn't called on subsequent
@@ -43,7 +64,7 @@ function setupConceptCheckboxListener()
   for (let i=0; i<conceptCheckboxArray.length; i++)
   {
     conceptCheckboxArray[i].addEventListener('change',function(event)
-{
+    {
       // Select the label sibling for this element and get the value
       let conceptName = conceptCheckboxArray[i].nextElementSibling.textContent;
       let parentElement = conceptCheckboxArray[i].parentNode;
@@ -104,21 +125,11 @@ function updateConceptPill(conceptName, addRemove)
   }  
 }
 
-/** 
-// Add an event listener to the checkboxes for all concepts
-checkbox.addEventListener('change', function () {
-  // Check if the checkbox is checked, increase the pill count and add it to the selected concepts data table
-  if (checkbox.checked) {
-      // If checked, add a class to the element
-  } else {
-      // If unchecked, decrease the pill count and remove it from the selected concepts data table
-  }
-}); */
-
 /** Function to handle the click event on the radio buttons.
  * Once the user chooses a radio button, the corresponding set of choices inside the accordion are made visible
  **/ 
-function handleRadioButtonClick() {
+function handleRadioButtonClick() 
+{
   // Remove the word button from the element ID of the button that was clicked.
   const strippedID = this.id.replace(/Button$/, '');
   // The accordion has the same name as the button except the word Button is replaced by Accordion
@@ -146,3 +157,11 @@ function handleRadioButtonClick() {
     globalCounter = 1;
   }
 }
+
+/** function filterBySyllableCount(syllableCount)
+ * {
+ *   Take syllable count and filter data table on that one syllable count value.
+ *  conceptsTable.column(3).search(syllableCount).draw();
+ * } 
+ * 
+ * */

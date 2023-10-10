@@ -24,3 +24,7 @@
     height: 400px; 
     overflow-y: scroll;
 }
+
+.toolbar {
+    float:right;
+}
