@@ -2,6 +2,7 @@ var conceptsTable;
 var reviewConceptsList;
 
 export {conceptsTable};
+export {reviewConceptsList};
 
 // Data table initializaton with some properties
 $(document).ready
@@ -14,6 +15,9 @@ $(document).ready
             {
                 // Take a look at the sDom reference in DataTables to really understand how to set this property.
                 //"sDom": 'lrtip', 
+                search: {
+                    "regex": true
+                },
                 "sDom": '<"top"i>rt<"top"lp><"clear">',
                 //Dom: 'l<"toolbar">rtip',
                 lengthMenu: [ 10, 20, 30, 50],

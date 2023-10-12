@@ -5,6 +5,7 @@
  * array is empty, the concepts table will show all values.
 */
 import { conceptsTable } from "./datasetup.js";
+import { reviewConceptsList } from "./datasetup.js";
 
 /**
  * This event handling section is all about how the concept radio buttons are populated.
@@ -19,13 +20,19 @@ const radioButtons = document.getElementsByName('conceptOptions');
 const accordionOptions = document.getElementsByName('accordionOptions');
 var globalCounter = 0;
 let conceptsArray = [];
+var flattenedList = [];
+var flattenedUniqueArray = [];
+
+var flattenedList2 = [];
+var flattenedUniqueArray2 = [];
+var filteredList = [];
+
 
 // Attach the event listener to each concept radio button
 for (let i = 0; i < radioButtons.length; i++) 
 {
   radioButtons[i].addEventListener('click', handleRadioButtonClick);
 }
-
 
 /** This event handling section is to handle clicks on the syllable dropdown menu
  *  Once the user clicks on a syllable choice, the existing table - whatever state it is in -
@@ -58,7 +65,8 @@ function setupConceptCheckboxListener()
   // Use querySelectorAll to select elements with matching IDs
   var matchingElements = document.querySelectorAll('[id^="conceptCheckbox"]');
   var searchString;
-
+  var tempTable;
+  
   // Return the selected elements as an array
   let conceptCheckboxArray = Array.from(matchingElements);
 
@@ -75,21 +83,57 @@ function setupConceptCheckboxListener()
       if (conceptCheckboxArray[i].checked) 
       {
         updateConceptPill(grandParentElement.id, true);
+        conceptName = ( "\"" + conceptName + " \"");
         conceptsArray.push(conceptName);
+        searchString = conceptsArray;
         searchString = conceptsArray.join(" ");
         conceptsTable.column(1).search(searchString).draw();
+        
+        // Here we are trying to filter rather than search
+        // With filtering the selection is additive but with search it is subtractive
+        // Current default is search. We may need filtering.
+        tempTable = createConceptFilter(conceptName);
+        flattenedList.push(tempTable.toArray());
+        flattenedUniqueArray = [...new Set(flattenedList.flat())];
+
         
       } else 
       // Checkbox unchecked. Decrease count. Remove from search array. Redo search on table.
       {
         updateConceptPill(grandParentElement.id, false);
+        conceptName = ( "\"" + conceptName + " \"");
         conceptsArray = conceptsArray.filter(item => item!== conceptName);
+        searchString = conceptsArray;
         searchString = conceptsArray.join(" ");
         conceptsTable.column(1).search(searchString).draw();
+        
+        // Implementing the reverse of filter by removing concepts from the list. This gives you
+        // a list of concepts. Now you have to find the corresponding words.
+        flattenedList2 = [];
+        conceptsArray.forEach(function(element)
+        {
+          tempTable = createConceptFilter(element);
+          flattenedList2.push(tempTable.toArray());
+        });
+        flattenedUniqueArray2 = [...new Set(flattenedList2.flat())];
+        
       }
     })
   }
 }
+
+function createConceptFilter(conceptName)
+{
+  conceptName = conceptName.replace(/"/g, '');
+  var filteredData = conceptsTable
+    .column(1)
+    .data()
+    .filter( function ( value, index) {
+        return value.includes(conceptName) ? true : false;
+    } );
+    return filteredData;
+}
+
 
 /*  This function increments or decrements the value of the concept count shown
   next to each concept group. It is called each time a checkbox is checked or
