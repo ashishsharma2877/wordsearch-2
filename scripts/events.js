@@ -44,15 +44,15 @@ for (let i = 0; i < radioButtons.length; i++)
 const dropdownMenu = document.querySelector(".syllable-Dropdown");
 
 // Add an event listener for the "click" event on the dropdown menu
-dropdownMenu.addEventListener("click", function(event) {
+dropdownMenu.addEventListener("click", function(event) 
+{
   event.preventDefault(); // Prevent the default link behavior
 
   // Check if the clicked element is an <a> element inside the dropdown menu
   if (event.target.tagName === "A") {
     const selectedValue = event.target.textContent;
-    console.log(`Selected value: ${selectedValue}`);
     // Call the filter on data table and filter by # of syllables.
-    // filterBySyllableCount(selectedValue);
+    filterBySyllableCount(selectedValue);
   }
 }); 
 
@@ -87,6 +87,8 @@ function setupConceptCheckboxListener()
         conceptsArray.push(conceptName);
         searchString = conceptsArray;
         searchString = conceptsArray.join(" ");
+        // You're redrawing the table each time because you want the user to see
+        // search results instantlly.
         conceptsTable.column(1).search(searchString).draw();
         
         // Here we are trying to filter rather than search
@@ -116,7 +118,6 @@ function setupConceptCheckboxListener()
           flattenedList2.push(tempTable.toArray());
         });
         flattenedUniqueArray2 = [...new Set(flattenedList2.flat())];
-        
       }
     })
   }
@@ -203,10 +204,10 @@ function handleRadioButtonClick()
   }
 }
 
-/** function filterBySyllableCount(syllableCount)
- * {
- *   Take syllable count and filter data table on that one syllable count value.
- *  conceptsTable.column(3).search(syllableCount).draw();
- * } 
- * 
- * */
+function filterBySyllableCount(syllableCount)
+{
+  //Take syllable count and filter data table on that one syllable count value.
+  conceptsTable.column(3).search(syllableCount).draw();
+} 
+  
+ 
