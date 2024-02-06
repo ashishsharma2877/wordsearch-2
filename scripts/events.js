@@ -89,7 +89,6 @@ function setupConceptCheckboxListener()
         searchString = conceptsArray.join(" ");
         // You're redrawing the table each time because you want the user to see
         // search results instantly.
-        console.log(searchString);
         conceptsTable.column(1).search(searchString).draw();
         
         // Here we are trying to filter rather than search
@@ -98,8 +97,7 @@ function setupConceptCheckboxListener()
         tempTable = createConceptFilter(conceptName);
         flattenedList.push(tempTable.toArray());
         flattenedUniqueArray = [...new Set(flattenedList.flat())];
-        console.log(flattenedUniqueArray);
-
+       
         
       } else 
       // Checkbox unchecked. Decrease count. Remove from search array. Redo search on table.
