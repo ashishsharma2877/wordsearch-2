@@ -48,694 +48,694 @@ bob,o b b,1183,1
 job,o j b,291,1
 rob,o r b,3863,1
 log,o l g,4642,1
-pan,an p             ,3271,1
-ran,an r             ,1077,1
-tan,an t             ,,1
-van,an v             ,1909,1
-lap,a l p            ,,1
-map,a m p            ,2184,1
-nap,a n p            ,,1
-rap,a r p            ,,1
-sap,a s p            ,,1
-tap,a t p            ,4930,1
-yap,a y p            ,,1
-zap,a z p            ,,1
-bat,a b t            ,,1
-fat,a f t            ,1270,1
-hat,a h t            ,2664,1
-mat,a m t            ,,1
-pat,a p t            ,3080,1
-rat,a r t            ,,1
-sat,a s t            ,1037,1
-vat,a v t            ,,1
-Thad,a th (thin) d            ,,1
-bib,i b b            ,,1
-dib,i d b            ,,1
-fib,i f b            ,,1
-jib,i j b            ,,1
-rib,i r b            ,,1
-bid,i b d            ,4636,1
-did,i d d            ,63,1
-hid,i h d            ,,1
-lid,i l d            ,,1
-mid,i m d            ,,1
-rid,i r d            ,2931,1
-Sid,i s d            ,,1
-big,i b g            ,189,1
-dig,i d g            ,4366,1
-fig,i f g            ,3476,1
-gig,i g g            ,,1
-jig,i j g            ,,1
-pig,i p g            ,,1
-rig,i r g            ,,1
-wig,i w g            ,,1
-dim,i d m            ,,1
-him,i h m            ,67,1
-Jim,i j m            ,1365,1
-rim,i r m            ,,1
-Tim,i t m            ,2439,1
-vim,i v m            ,,1
-win,i w n            ,633,1
-bin,i b n            ,4360,1
-cab,a c b            ,,1
-dab,a d b            ,,1
-fab,a f b            ,,1
-gab,a g b            ,,1
-jab,a j b            ,,1
-lab,a l b            ,2819,1
-nab,a n b            ,,1
-tab,a t b            ,,1
-ad,a d             ,2427,1
-bad,a b d            ,317,1
-cad,a c d            ,,1
-dad,a d d            ,636,1
-fad,a f d            ,,1
-had,a h d            ,44,1
-lad,a l d            ,,1
-mad,a m d            ,2337,1
-pad,a p d            ,,1
-sad,a s d            ,1887,1
-Tad,a t d            ,,1
-bag,a b g            ,1561,1
-hag,a h g            ,,1
-jag,a j g            ,,1
-lag,a l g            ,,1
-nag,a n g            ,,1
-rag,a r g            ,,1
-sag,a s g            ,,1
-tag,a t g            ,5000,1
-wag,a w g            ,,1
-yak,a y k            ,,1
-Al,a l             ,500,1
-Hal,a h l            ,,1
-pal,a p l            ,,1
-Sal,a s l            ,,1
-Val,a v l            ,,1
-am,am              ,172,1
-dam,am d m            ,,1
-ham,am h m            ,,1
-jam,am j m            ,,1
-Pam,am p m            ,,1
-ram,am r m            ,,1
-Sam,am s m            ,1273,1
-Tam,am t m            ,,1
-yam,am y m            ,,1
-ban,an b             ,3745,1
-Dan,an d             ,2200,1
-fan,an f             ,2016,1
-Jan,an j             ,2972,1
-man,an m             ,137,1
-pan,an p             ,3271,1
-ran,an r             ,1077,1
-tan,an t             ,,1
-van,an v             ,1909,1
-lap,a l p            ,,1
-map,a m p            ,2184,1
-nap,a n p            ,,1
-rap,a r p            ,,1
-sap,a s p            ,,1
-tap,a t p            ,4930,1
-yap,a y p            ,,1
-zap,a z p            ,,1
-bat,a b t            ,,1
-fat,a f t            ,1270,1
-hat,a h t            ,2664,1
-mat,a m t            ,,1
-pat,a p t            ,3080,1
-rat,a r t            ,,1
-sat,a s t            ,1037,1
-vat,a v t            ,,1
-Thad,a th (thin) d            ,,1
-bib,i b b            ,,1
-dib,i d b            ,,1
-fib,i f b            ,,1
-jib,i j b            ,,1
-rib,i r b            ,,1
-bid,i b d            ,4636,1
-did,i d d            ,63,1
-hid,i h d            ,,1
-lid,i l d            ,,1
-mid,i m d            ,,1
-rid,i r d            ,2931,1
-Sid,i s d            ,,1
-big,i b g            ,189,1
-dig,i d g            ,4366,1
-fig,i f g            ,3476,1
-gig,i g g            ,,1
-jig,i j g            ,,1
-pig,i p g            ,,1
-rig,i r g            ,,1
-wig,i w g            ,,1
-dim,i d m            ,,1
-him,i h m            ,67,1
-Jim,i j m            ,1365,1
-rim,i r m            ,,1
-Tim,i t m            ,2439,1
-vim,i v m            ,,1
-win,i w n            ,633,1
-bin,i b n            ,4360,1
-din,i d n            ,,1
-fin,i f n            ,,1
-pin,i p n            ,,1
-sin,i s n            ,3485,1
-tin,i t n            ,,1
-dip,i d p            ,,1
-hip,i h p            ,4698,1
-jip,i j p            ,,1
-kip,i k p            ,,1
-lip,i l p            ,,1
-nip,i n p            ,,1
-pip,i p p            ,,1
-rip,i r p            ,,1
-sip,i s p            ,,1
-tip,i t p            ,2896,1
-yip,i y p            ,,1
-zip,i z p            ,,1
-bit,i b t            ,439,1
-fit,i f t            ,1333,1
-hit,i h t            ,531,1
-it,i t             ,10,1
-lit,i l t            ,4577,1
-nit,i n t            ,,1
-pit,i p t            ,,1
-sit,i s t            ,867,1
-wit,i w t            ,,1
-bob,o b b            ,1183,1
-cob,o c b            ,,1
-job,o j b            ,291,1
-lob,o l b            ,,1
-mob,o m b            ,,1
-rob,o r b            ,3863,1
-sob,o s b            ,,1
-nod,o n d            ,,1
-pod,o p d            ,,1
-rod,o r d            ,,1
-sod,o s d            ,,1
-bog,o b g            ,,1
-fog,o f g            ,,1
-hog,o h g            ,,1
-jog,o j g            ,,1
-log,o l g            ,4642,1
-mom,o m m            ,616,1
-Tom,o t m            ,1134,1
-Don,o d n            ,2172,1
-Ron,o r n            ,3129,1
-bop,o b p            ,,1
-hop,o h p            ,,1
-mop,o m p            ,,1
-lop,o l p            ,,1
-pop,o p p            ,2258,1
-sop,o s p            ,,1
-top,o t p            ,358,1
-dot,o d t            ,,1
-hot,o h t            ,789,1
-jot,o j t            ,,1
-lot,o l t            ,165,1
-not,o n t            ,24,1
-rot,o r t            ,,1
-tot,o t t            ,,1
-dog,o d g            ,957,1
-shot,o sh t            ,670,1
-dub,u d b            ,,1
-hub,u h b            ,,1
-nub,u n b            ,,1
-pub,u p b            ,,1
-rub,u r b            ,,1
-sub,u s b            ,,1
-bud,u b d            ,,1
-dud,u d d            ,,1
-Jud,u j d            ,,1
-mud,u m d            ,,1
-bug,u b g            ,,1
-hug,u h g            ,,1
-jug,u j g            ,,1
-lug,u l g            ,,1
-mug,u m g            ,,1
-pug,u p g            ,,1
-rug,u r g            ,,1
-tug,u t g            ,,1
-bum,u b m            ,,1
-hum,u h m            ,,1
-mum,u m m            ,,1
-rum,u r m            ,,1
-sum,u s m            ,4918,1
-bun,u b n            ,,1
-fun,u f n            ,721,1
-nun,u n n            ,,1
-pun,u p n            ,,1
-run,u r n            ,350,1
-sun,u s n            ,950,1
-pup,u p p            ,,1
-sup,u s p            ,,1
-up,u p             ,57,1
-bus,u b s            ,1961,1
-gut,u g t            ,,1
-hut,u h t            ,,1
-jut,u j t            ,,1
-nut,u n t            ,,1
-rut,u r t            ,,1
-chub,u ch b            ,,1
-Deb,e d b            ,,1
-bed,e b d            ,817,1
-fed,e f d            ,2531,1
-Jed,e j d            ,,1
-led,e l d            ,811,1
-Ned,e n d            ,,1
-red,e r d            ,539,1
-Ted,e t d            ,2581,1
-wed,e w d            ,,1
-beg,e b g            ,,1
-leg,e l g            ,2322,1
-Meg,e m g            ,,1
-peg,e p g            ,,1
-hem,e h m            ,,1
-Ben,e b n            ,1952,1
-den,e d n            ,,1
-fen,e f n            ,,1
-hen,e h n            ,,1
-Jen,e j n            ,,1
-Len,e l n            ,,1
-men,e m n            ,252,1
-pen,e p n            ,4744,1
-ten,e t n            ,952,1
-pep,e p p            ,,1
-bet,e b t            ,1944,1
-jet,e j t            ,4763,1
-let,e l t            ,131,1
-met,e m t            ,717,1
-net,e n t            ,2365,1
-pet,e p t            ,4277,1
-set,e s t            ,269,1
-vet,e v t            ,,1
-wet,e w t            ,2876,1
-yet,e y t            ,258,1
-yes,e y s            ,164,1
-Beth,e b th (thin)            ,,1
-Seth,e s th (thin)            ,,1
-thin,th (thin) i n            ,2254,1
-thud,th (thin) u d            ,,1
-thug,th (thin) u g            ,,1
-math,th (thin) m a            ,2950,1
-path,th (thin) p a            ,1610,1
-tenth,th (thin) t e n           ,,1
-fifth,th (thin) f i blends and digraphs           ,2844,1
-pith,th (thin) p i            ,,1
-with,th (thin) w i            ,16,1
+pan,an p  ,3271,1
+ran,an r  ,1077,1
+tan,an t  ,,1
+van,an v  ,1909,1
+lap,a l p ,,1
+map,a m p ,2184,1
+nap,a n p ,,1
+rap,a r p ,,1
+sap,a s p ,,1
+tap,a t p ,4930,1
+yap,a y p ,,1
+zap,a z p ,,1
+bat,a b t ,,1
+fat,a f t ,1270,1
+hat,a h t ,2664,1
+mat,a m t ,,1
+pat,a p t ,3080,1
+rat,a r t ,,1
+sat,a s t ,1037,1
+vat,a v t ,,1
+Thad,a th (thin) d ,,1
+bib,i b b ,,1
+dib,i d b ,,1
+fib,i f b ,,1
+jib,i j b ,,1
+rib,i r b ,,1
+bid,i b d ,4636,1
+did,i d d ,63,1
+hid,i h d ,,1
+lid,i l d ,,1
+mid,i m d ,,1
+rid,i r d ,2931,1
+Sid,i s d ,,1
+big,i b g ,189,1
+dig,i d g ,4366,1
+fig,i f g ,3476,1
+gig,i g g ,,1
+jig,i j g ,,1
+pig,i p g ,,1
+rig,i r g ,,1
+wig,i w g ,,1
+dim,i d m ,,1
+him,i h m ,67,1
+Jim,i j m ,1365,1
+rim,i r m ,,1
+Tim,i t m ,2439,1
+vim,i v m ,,1
+win,i w n ,633,1
+bin,i b n ,4360,1
+cab,a c b ,,1
+dab,a d b ,,1
+fab,a f b ,,1
+gab,a g b ,,1
+jab,a j b ,,1
+lab,a l b ,2819,1
+nab,a n b ,,1
+tab,a t b ,,1
+ad,a d  ,2427,1
+bad,a b d ,317,1
+cad,a c d ,,1
+dad,a d d ,636,1
+fad,a f d ,,1
+had,a h d ,44,1
+lad,a l d ,,1
+mad,a m d ,2337,1
+pad,a p d ,,1
+sad,a s d ,1887,1
+Tad,a t d ,,1
+bag,a b g ,1561,1
+hag,a h g ,,1
+jag,a j g ,,1
+lag,a l g ,,1
+nag,a n g ,,1
+rag,a r g ,,1
+sag,a s g ,,1
+tag,a t g ,5000,1
+wag,a w g ,,1
+yak,a y k ,,1
+Al,a l  ,500,1
+Hal,a h l ,,1
+pal,a p l ,,1
+Sal,a s l ,,1
+Val,a v l ,,1
+am,am   ,172,1
+dam,am d m ,,1
+ham,am h m ,,1
+jam,am j m ,,1
+Pam,am p m ,,1
+ram,am r m ,,1
+Sam,am s m ,1273,1
+Tam,am t m ,,1
+yam,am y m ,,1
+ban,an b  ,3745,1
+Dan,an d  ,2200,1
+fan,an f  ,2016,1
+Jan,an j  ,2972,1
+man,an m  ,137,1
+pan,an p  ,3271,1
+ran,an r  ,1077,1
+tan,an t  ,,1
+van,an v  ,1909,1
+lap,a l p ,,1
+map,a m p ,2184,1
+nap,a n p ,,1
+rap,a r p ,,1
+sap,a s p ,,1
+tap,a t p ,4930,1
+yap,a y p ,,1
+zap,a z p ,,1
+bat,a b t ,,1
+fat,a f t ,1270,1
+hat,a h t ,2664,1
+mat,a m t ,,1
+pat,a p t ,3080,1
+rat,a r t ,,1
+sat,a s t ,1037,1
+vat,a v t ,,1
+Thad,a th (thin) d ,,1
+bib,i b b ,,1
+dib,i d b ,,1
+fib,i f b ,,1
+jib,i j b ,,1
+rib,i r b ,,1
+bid,i b d ,4636,1
+did,i d d ,63,1
+hid,i h d ,,1
+lid,i l d ,,1
+mid,i m d ,,1
+rid,i r d ,2931,1
+Sid,i s d ,,1
+big,i b g ,189,1
+dig,i d g ,4366,1
+fig,i f g ,3476,1
+gig,i g g ,,1
+jig,i j g ,,1
+pig,i p g ,,1
+rig,i r g ,,1
+wig,i w g ,,1
+dim,i d m ,,1
+him,i h m ,67,1
+Jim,i j m ,1365,1
+rim,i r m ,,1
+Tim,i t m ,2439,1
+vim,i v m ,,1
+win,i w n ,633,1
+bin,i b n ,4360,1
+din,i d n ,,1
+fin,i f n ,,1
+pin,i p n ,,1
+sin,i s n ,3485,1
+tin,i t n ,,1
+dip,i d p ,,1
+hip,i h p ,4698,1
+jip,i j p ,,1
+kip,i k p ,,1
+lip,i l p ,,1
+nip,i n p ,,1
+pip,i p p ,,1
+rip,i r p ,,1
+sip,i s p ,,1
+tip,i t p ,2896,1
+yip,i y p ,,1
+zip,i z p ,,1
+bit,i b t ,439,1
+fit,i f t ,1333,1
+hit,i h t ,531,1
+it,i t  ,10,1
+lit,i l t ,4577,1
+nit,i n t ,,1
+pit,i p t ,,1
+sit,i s t ,867,1
+wit,i w t ,,1
+bob,o b b ,1183,1
+cob,o c b ,,1
+job,o j b ,291,1
+lob,o l b ,,1
+mob,o m b ,,1
+rob,o r b ,3863,1
+sob,o s b ,,1
+nod,o n d ,,1
+pod,o p d ,,1
+rod,o r d ,,1
+sod,o s d ,,1
+bog,o b g ,,1
+fog,o f g ,,1
+hog,o h g ,,1
+jog,o j g ,,1
+log,o l g ,4642,1
+mom,o m m ,616,1
+Tom,o t m ,1134,1
+Don,o d n ,2172,1
+Ron,o r n ,3129,1
+bop,o b p ,,1
+hop,o h p ,,1
+mop,o m p ,,1
+lop,o l p ,,1
+pop,o p p ,2258,1
+sop,o s p ,,1
+top,o t p ,358,1
+dot,o d t ,,1
+hot,o h t ,789,1
+jot,o j t ,,1
+lot,o l t ,165,1
+not,o n t ,24,1
+rot,o r t ,,1
+tot,o t t ,,1
+dog,o d g ,957,1
+shot,o sh t ,670,1
+dub,u d b ,,1
+hub,u h b ,,1
+nub,u n b ,,1
+pub,u p b ,,1
+rub,u r b ,,1
+sub,u s b ,,1
+bud,u b d ,,1
+dud,u d d ,,1
+Jud,u j d ,,1
+mud,u m d ,,1
+bug,u b g ,,1
+hug,u h g ,,1
+jug,u j g ,,1
+lug,u l g ,,1
+mug,u m g ,,1
+pug,u p g ,,1
+rug,u r g ,,1
+tug,u t g ,,1
+bum,u b m ,,1
+hum,u h m ,,1
+mum,u m m ,,1
+rum,u r m ,,1
+sum,u s m ,4918,1
+bun,u b n ,,1
+fun,u f n ,721,1
+nun,u n n ,,1
+pun,u p n ,,1
+run,u r n ,350,1
+sun,u s n ,950,1
+pup,u p p ,,1
+sup,u s p ,,1
+up,u p  ,57,1
+bus,u b s ,1961,1
+gut,u g t ,,1
+hut,u h t ,,1
+jut,u j t ,,1
+nut,u n t ,,1
+rut,u r t ,,1
+chub,u ch b ,,1
+Deb,e d b ,,1
+bed,e b d ,817,1
+fed,e f d ,2531,1
+Jed,e j d ,,1
+led,e l d ,811,1
+Ned,e n d ,,1
+red,e r d ,539,1
+Ted,e t d ,2581,1
+wed,e w d ,,1
+beg,e b g ,,1
+leg,e l g ,2322,1
+Meg,e m g ,,1
+peg,e p g ,,1
+hem,e h m ,,1
+Ben,e b n ,1952,1
+den,e d n ,,1
+fen,e f n ,,1
+hen,e h n ,,1
+Jen,e j n ,,1
+Len,e l n ,,1
+men,e m n ,252,1
+pen,e p n ,4744,1
+ten,e t n ,952,1
+pep,e p p ,,1
+bet,e b t ,1944,1
+jet,e j t ,4763,1
+let,e l t ,131,1
+met,e m t ,717,1
+net,e n t ,2365,1
+pet,e p t ,4277,1
+set,e s t ,269,1
+vet,e v t ,,1
+wet,e w t ,2876,1
+yet,e y t ,258,1
+yes,e y s ,164,1
+Beth,e b th (thin) ,,1
+Seth,e s th (thin) ,,1
+thin,th (thin) i n ,2254,1
+thud,th (thin) u d ,,1
+thug,th (thin) u g ,,1
+math,th (thin) m a ,2950,1
+path,th (thin) p a ,1610,1
+tenth,th (thin) t e n  ,,1
+fifth,th (thin) f i blends and digraphs  ,2844,1
+pith,th (thin) p i ,,1
+with,th (thin) w i ,16,1
 ,,,
-than,th (that) a n            ,76,1
-that,th (that) a t            ,8,1
-them,th (that) e m            ,69,1
-then,th (that) e n            ,84,1
-this,th (that) i s            ,17,1
-thus,th (that) u s            ,791,1
-chap,ch a p            ,,1
-Chet,ch e t            ,,1
-chip,ch i p            ,4391,1
-such,ch u ch            ,140,1
-shag,sh a g            ,,1
-sham,sh am             ,,1
-shim,sh i m            ,,1
-shin,sh i n            ,,1
-ship,sh i p            ,1556,1
-shod,sh o d            ,,1
-shup,sh u p            ,,1
-shun,sh u n            ,,1
-shush,sh u sh            ,,1
-bash,sh b a            ,,1
-cash,sh c a            ,1618,1
-dash,sh d a            ,,1
-dish,sh d i            ,4082,1
-fish,sh f i            ,1168,1
-gash,sh g a            ,,1
-gush,sh g u            ,,1
-hash,sh h a            ,,1
-hush,sh h u            ,,1
-Josh,sh j o            ,3962,1
-lash,sh l a            ,,1
-lush,sh l u            ,,1
-mash,sh m a            ,,1
-mesh,sh m e            ,,1
-Nash,sh n a            ,,1
-posh,sh p o            ,,1
-rash,sh r a            ,,1
-rush,sh r u            ,2480,1
-sash,sh s a            ,,1
-wish,sh w i            ,943,1
-wham,wh am             ,,1
-whet,wh e t            ,,1
-whim,wh i m            ,,1
-whip,wh i p            ,,1
-whit,wh i t            ,,1
-whiz,wh i z            ,,1
-whop,wh o p            ,,1
-whelp,wh e l-blends (end)            ,,1
-whist,wh i s-blends (end)            ,,1
+than,th (that) a n ,76,1
+that,th (that) a t ,8,1
+them,th (that) e m ,69,1
+then,th (that) e n ,84,1
+this,th (that) i s ,17,1
+thus,th (that) u s ,791,1
+chap,ch a p ,,1
+Chet,ch e t ,,1
+chip,ch i p ,4391,1
+such,ch u ch ,140,1
+shag,sh a g ,,1
+sham,sh am  ,,1
+shim,sh i m ,,1
+shin,sh i n ,,1
+ship,sh i p ,1556,1
+shod,sh o d ,,1
+shup,sh u p ,,1
+shun,sh u n ,,1
+shush,sh u sh ,,1
+bash,sh b a ,,1
+cash,sh c a ,1618,1
+dash,sh d a ,,1
+dish,sh d i ,4082,1
+fish,sh f i ,1168,1
+gash,sh g a ,,1
+gush,sh g u ,,1
+hash,sh h a ,,1
+hush,sh h u ,,1
+Josh,sh j o ,3962,1
+lash,sh l a ,,1
+lush,sh l u ,,1
+mash,sh m a ,,1
+mesh,sh m e ,,1
+Nash,sh n a ,,1
+posh,sh p o ,,1
+rash,sh r a ,,1
+rush,sh r u ,2480,1
+sash,sh s a ,,1
+wish,sh w i ,943,1
+wham,wh am  ,,1
+whet,wh e t ,,1
+whim,wh i m ,,1
+whip,wh i p ,,1
+whit,wh i t ,,1
+whiz,wh i z ,,1
+whop,wh o p ,,1
+whelp,wh e l-blends (end) ,,1
+whist,wh i s-blends (end) ,,1
 whiplash,wh i p l a sh VC.CV (Rabbit Division)        ,,2
 whetstone,wh e t s-blends o-e n         ,,2
-thresh,blends and digraphs th (thin) r e sh          ,,1
-depth,blends and digraphs d e p th (thin)          ,3746,1
-ninth,              ,,1
+thresh,blends and digraphs th (thin) r e sh ,,1
+depth,blends and digraphs d e p th (thin) ,3746,1
+ninth,   ,,1
 shunt,blends and digraphs sh u n t final blends         ,,1
-theme,e-e th (thin) m            ,2758,1
-chime,i-e ch m            ,,1
-chive,i-e ch v            ,,1
-while,i-e wh l            ,146,1
-blab,l-blends (end) b l a b          ,,1
-bled,l-blends b l e d          ,,1
-blip,l-blends b l i p          ,,1
-blob,l-blends b l o b          ,,1
-blog,l-blends b l o g          ,1436,1
-blot,l-blends b l o t          ,,1
-clip,l-blends c l i p          ,3042,1
-clod,l-blends c l o d          ,,1
-flab,l-blends f l a b          ,,1
-flag,l-blends f l a g          ,3484,1
-flan,l-blends f l an           ,,1
-flap,l-blends f l a p          ,,1
-flat,l-blends f l a t          ,2334,1
-fled,l-blends f l e d          ,,1
-flip,l-blends f l i p          ,,1
-flop,l-blends f l o p          ,,1
-flub,l-blends f l u b          ,,1
-glad,l-blends g l a d          ,1636,1
-glen,l-blends g l e n          ,,1
-glib,l-blends g l i b          ,,1
-glob,l-blends g l o b          ,,1
-glum,l-blends g l u m          ,,1
-glut,l-blends g l u t          ,,1
-plan,l-blends p l an           ,468,1
-pled,l-blends p l e d          ,,1
-plod,l-blends p l o d          ,,1
-plop,l-blends p l o p          ,,1
-plot,l-blends p l o t          ,3341,1
-plug,l-blends p l u g          ,,1
-plum,l-blends p l u m          ,,1
-plus,l-blends p l u s          ,1289,1
-slab,l-blends s l a b          ,,1
-slam,l-blends s l am           ,,1
-slap,l-blends s l a p          ,,1
-slat,l-blends s l a t          ,,1
-sled,l-blends s l e d          ,,1
-slid,l-blends s l i d          ,,1
-slim,l-blends s l i m          ,,1
-slip,l-blends s l i p          ,4472,1
-slit,l-blends s l i t          ,,1
-slob,l-blends s l o b          ,,1
-slop,l-blends s l o p          ,,1
-slot,l-blends s l o t          ,,1
-slug,l-blends s l u g          ,,1
-slum,l-blends s l u m          ,,1
-brad,r-blends b r a d          ,4894,1
-brag,r-blends b r a g          ,,1
-brat,r-blends b r a t          ,,1
-bred,r-blends b r e d          ,,1
-brig,r-blends b r i g          ,,1
-brim,r-blends b r i m          ,,1
-crag,r-blends c r a g          ,,1
-crib,r-blends c r i b          ,,1
-drab,r-blends d r a b          ,,1
-drag,r-blends d r a g          ,4622,1
-drip,r-blends d r i p          ,,1
-drop,r-blends d r o p          ,1411,1
-drug,r-blends d r u g          ,944,1
-drum,r-blends d r u m          ,,1
-fret,r-blends f r e t          ,,1
-frog,r-blends f r o g          ,,1
-grab,r-blends g r a b          ,2982,1
+theme,e-e th (thin) m ,2758,1
+chime,i-e ch m ,,1
+chive,i-e ch v ,,1
+while,i-e wh l ,146,1
+blab,l-blends (end) b l a b ,,1
+bled,l-blends b l e d ,,1
+blip,l-blends b l i p ,,1
+blob,l-blends b l o b ,,1
+blog,l-blends b l o g ,1436,1
+blot,l-blends b l o t ,,1
+clip,l-blends c l i p ,3042,1
+clod,l-blends c l o d ,,1
+flab,l-blends f l a b ,,1
+flag,l-blends f l a g ,3484,1
+flan,l-blends f l an  ,,1
+flap,l-blends f l a p ,,1
+flat,l-blends f l a t ,2334,1
+fled,l-blends f l e d ,,1
+flip,l-blends f l i p ,,1
+flop,l-blends f l o p ,,1
+flub,l-blends f l u b ,,1
+glad,l-blends g l a d ,1636,1
+glen,l-blends g l e n ,,1
+glib,l-blends g l i b ,,1
+glob,l-blends g l o b ,,1
+glum,l-blends g l u m ,,1
+glut,l-blends g l u t ,,1
+plan,l-blends p l an  ,468,1
+pled,l-blends p l e d ,,1
+plod,l-blends p l o d ,,1
+plop,l-blends p l o p ,,1
+plot,l-blends p l o t ,3341,1
+plug,l-blends p l u g ,,1
+plum,l-blends p l u m ,,1
+plus,l-blends p l u s ,1289,1
+slab,l-blends s l a b ,,1
+slam,l-blends s l am  ,,1
+slap,l-blends s l a p ,,1
+slat,l-blends s l a t ,,1
+sled,l-blends s l e d ,,1
+slid,l-blends s l i d ,,1
+slim,l-blends s l i m ,,1
+slip,l-blends s l i p ,4472,1
+slit,l-blends s l i t ,,1
+slob,l-blends s l o b ,,1
+slop,l-blends s l o p ,,1
+slot,l-blends s l o t ,,1
+slug,l-blends s l u g ,,1
+slum,l-blends s l u m ,,1
+brad,r-blends b r a d ,4894,1
+brag,r-blends b r a g ,,1
+brat,r-blends b r a t ,,1
+bred,r-blends b r e d ,,1
+brig,r-blends b r i g ,,1
+brim,r-blends b r i m ,,1
+crag,r-blends c r a g ,,1
+crib,r-blends c r i b ,,1
+drab,r-blends d r a b ,,1
+drag,r-blends d r a g ,4622,1
+drip,r-blends d r i p ,,1
+drop,r-blends d r o p ,1411,1
+drug,r-blends d r u g ,944,1
+drum,r-blends d r u m ,,1
+fret,r-blends f r e t ,,1
+frog,r-blends f r o g ,,1
+grab,r-blends g r a b ,2982,1
 grinch,r-blends g r i n ch         ,,1
-grad,r-blends g r a d          ,,1
-gram,r-blends g r am           ,,1
-grid,r-blends g r i d          ,,1
-grim,r-blends g r i m          ,,1
-grip,r-blends g r i p          ,,1
-grit,r-blends g r i t          ,,1
-grog,r-blends g r o g          ,,1
-grub,r-blends g r u b          ,,1
-pram,r-blends p r am           ,,1
-prep,r-blends p r e p          ,,1
-prim,r-blends p r i m          ,,1
-prod,r-blends p r o d          ,,1
-prom,r-blends p r o m          ,,1
-prop,r-blends p r o p          ,,1
-tram,r-blends t r am           ,,1
-trap,r-blends t r a p          ,,1
-trek,r-blends t r e k          ,,1
-trim,r-blends t r i m          ,,1
-trip,r-blends t r i p          ,1267,1
-trot,r-blends t r o t          ,,1
-Scot,s-blends s c o t          ,,1
-smog,s-blends s m o g          ,,1
-smug,s-blends s m u g          ,,1
-snag,s-blends s n a g          ,,1
-snap,s-blends s n a p          ,,1
-snip,s-blends s n i p          ,,1
-snit,s-blends s n i t          ,,1
-snob,s-blends s n o b          ,,1
-snub,s-blends s n u b          ,,1
-snug,s-blends s n u g          ,,1
-span,s-blends s p an           ,,1
-spat,s-blends s p a t          ,,1
-spin,s-blends s p i n          ,4376,1
-spit,s-blends s p i t          ,,1
-spud,s-blends s p u d          ,,1
-spun,s-blends s p u n          ,,1
-stab,s-blends s t a b          ,,1
-stag,s-blends s t a g          ,,1
-Stan,s-blends s t an           ,,1
-step,s-blends s t e p          ,723,1
-stop,s-blends s t o p          ,340,1
-stub,s-blends s t u b          ,,1
-swam,s-blends s w am           ,,1
-swig,s-blends s w i g          ,,1
-swim,s-blends s w i m          ,,1
-swum,s-blends s w u m          ,,1
-twig,w-blends t w i g          ,,1
-twin,w-blends t w i n          ,4803,1
-twit,w-blends t w i t          ,,1
-blush,blends and digraphs b l u sh          ,,1
-flash,blends and digraphs f l a sh          ,3607,1
-flesh,blends and digraphs f l e sh          ,3850,1
-flush,blends and digraphs f l u sh          ,,1
-plush,blends and digraphs p l u sh          ,,1
-slash,blends and digraphs s l a sh          ,,1
-slosh,blends and digraphs s l o sh          ,,1
-slush,blends and digraphs s l u sh          ,,1
-brash,blends and digraphs b r a sh          ,,1
-brush,blends and digraphs b r u sh          ,4273,1
+grad,r-blends g r a d ,,1
+gram,r-blends g r am  ,,1
+grid,r-blends g r i d ,,1
+grim,r-blends g r i m ,,1
+grip,r-blends g r i p ,,1
+grit,r-blends g r i t ,,1
+grog,r-blends g r o g ,,1
+grub,r-blends g r u b ,,1
+pram,r-blends p r am  ,,1
+prep,r-blends p r e p ,,1
+prim,r-blends p r i m ,,1
+prod,r-blends p r o d ,,1
+prom,r-blends p r o m ,,1
+prop,r-blends p r o p ,,1
+tram,r-blends t r am  ,,1
+trap,r-blends t r a p ,,1
+trek,r-blends t r e k ,,1
+trim,r-blends t r i m ,,1
+trip,r-blends t r i p ,1267,1
+trot,r-blends t r o t ,,1
+Scot,s-blends s c o t ,,1
+smog,s-blends s m o g ,,1
+smug,s-blends s m u g ,,1
+snag,s-blends s n a g ,,1
+snap,s-blends s n a p ,,1
+snip,s-blends s n i p ,,1
+snit,s-blends s n i t ,,1
+snob,s-blends s n o b ,,1
+snub,s-blends s n u b ,,1
+snug,s-blends s n u g ,,1
+span,s-blends s p an  ,,1
+spat,s-blends s p a t ,,1
+spin,s-blends s p i n ,4376,1
+spit,s-blends s p i t ,,1
+spud,s-blends s p u d ,,1
+spun,s-blends s p u n ,,1
+stab,s-blends s t a b ,,1
+stag,s-blends s t a g ,,1
+Stan,s-blends s t an  ,,1
+step,s-blends s t e p ,723,1
+stop,s-blends s t o p ,340,1
+stub,s-blends s t u b ,,1
+swam,s-blends s w am  ,,1
+swig,s-blends s w i g ,,1
+swim,s-blends s w i m ,,1
+swum,s-blends s w u m ,,1
+twig,w-blends t w i g ,,1
+twin,w-blends t w i n ,4803,1
+twit,w-blends t w i t ,,1
+blush,blends and digraphs b l u sh ,,1
+flash,blends and digraphs f l a sh ,3607,1
+flesh,blends and digraphs f l e sh ,3850,1
+flush,blends and digraphs f l u sh ,,1
+plush,blends and digraphs p l u sh ,,1
+slash,blends and digraphs s l a sh ,,1
+slosh,blends and digraphs s l o sh ,,1
+slush,blends and digraphs s l u sh ,,1
+brash,blends and digraphs b r a sh ,,1
+brush,blends and digraphs b r u sh ,4273,1
 drench,blends and digraphs d r e n ch         ,,1
-fresh,blends and digraphs f r e sh          ,1287,1
-trash,blends and digraphs t r a sh          ,4220,1
-smash,blends and digraphs s m a sh          ,,1
-smith,blends and digraphs s m i th (thin)          ,1219,1
-stash,blends and digraphs s t a sh          ,,1
-swish,blends and digraphs s w i sh          ,,1
+fresh,blends and digraphs f r e sh ,1287,1
+trash,blends and digraphs t r a sh ,4220,1
+smash,blends and digraphs s m a sh ,,1
+smith,blends and digraphs s m i th (thin) ,1219,1
+stash,blends and digraphs s t a sh ,,1
+swish,blends and digraphs s w i sh ,,1
 twelfth,blends and digraphs t w e l f th (thin)        ,,1
-gaff,-ff g a            ,,1
-Jeff,-ff j e            ,2260,1
-Biff,-ff b i            ,,1
-miff,-ff m i            ,,1
-tiff,-ff t i            ,,1
-huff,-ff h u            ,,1
-whiff,-ff wh i            ,,1
-buff,-ff b u            ,,1
-guff,-ff g u            ,,1
-muff,-ff m u            ,,1
-puff,-ff p u            ,,1
-ruff,-ff r u            ,,1
-tuff,-ff t u            ,,1
-bell,-ll b e            ,2644,1
-dell,-ll d e            ,,1
-fell,-ll f e            ,1285,1
-Nell,-ll n e            ,,1
-sell,-ll s e            ,1236,1
-tell,-ll t e            ,167,1
-well,-ll w e            ,82,1
-yell,-ll y e            ,,1
-shell,-ll sh e            ,4150,1
-bill,-ll b i            ,476,1
-dill,-ll d i            ,,1
-fill,-ll f i            ,2113,1
-gill,-ll g i            ,,1
-hill,-ll h i            ,1444,1
-ill,-ll i             ,2877,1
-mill,-ll m i            ,,1
-pill,-ll p i            ,,1
-sill,-ll s i            ,,1
-till,-ll t i            ,2378,1
-will,-ll w i            ,60,1
-chill,-ll ch i            ,,1
-shill,-ll sh i            ,,1
-trill,-ll t r i r-blends          ,,1
-dull,-ll d u            ,,1
-hull,-ll h u            ,,1
-lull,-ll l u            ,,1
-mull,-ll m u            ,,1
-null,-ll n u            ,,1
-bass,-ss b a            ,,1
-mass,-ss m a            ,1306,1
-pass,-ss p a            ,937,1
-sass,-ss s a            ,,1
-fess,-ss f e            ,,1
-less,-ss l e            ,257,1
-mess,-ss m e            ,2519,1
-ress,-ss r e            ,,1
-hiss,-ss h i            ,,1
-miss,-ss m i            ,825,1
-fuss,-ss f u            ,,1
-muss,-ss m u            ,,1
-Russ,-ss r u            ,,1
-doll,-ll d o            ,,1
-moll,-ll m o            ,,1
-jazz,-zz j a            ,4087,1
-fizz,-zz f i            ,,1
-buzz,-zz b u            ,,1
-razz,-zz r a            ,,1
-fuzz,-zz f u            ,,1
-pizzazz,-zz p i a -zz          ,,2
-act,t-blends (end) a c t           ,542,1
-duct,t-blends (end) d u c t          ,,1
-fact,t-blends (end) f a c t          ,251,1
-pact,t-blends (end) p a c t          ,,1
-sect,t-blends (end) s e c t          ,,1
-tact,t-blends (end) t a c t          ,,1
-aft,t-blends (end) a f t           ,,1
-daft,t-blends (end) d a f t          ,,1
-deft,t-blends (end) d e f t          ,,1
-gift,t-blends (end) g i f t          ,1969,1
-heft,t-blends (end) h e f t          ,,1
-left,t-blends (end) l e f t          ,211,1
-lift,t-blends (end) l i f t          ,3234,1
-loft,t-blends (end) l o f t          ,,1
-raft,t-blends (end) r a f t          ,,1
-rift,t-blends (end) r i f t          ,,1
-sift,t-blends (end) s i f t          ,,1
-tuft,t-blends (end) t u f t          ,,1
-shaft,t-blends (end) sh a f t          ,,1
-shift,t-blends (end) sh i f t          ,2132,1
-theft,t-blends (end) th (thin) e f t          ,,1
-bulb,l-blends (end) b u l b          ,,1
-gild,l-blends (end) g i l d          ,,1
-held,l-blends (end) h e l d          ,625,1
-meld,l-blends (end) m e l d          ,,1
-weld,l-blends (end) w e l d          ,,1
-elf,l-blends (end) e l f           ,,1
-golf,l-blends (end) g o l f          ,2530,1
-pelf,l-blends (end) p e l f          ,,1
-self,l-blends (end) s e l f          ,2129,1
-shelf,l-blends (end) sh e l f          ,,1
-elk,l-blends (end) e l k           ,,1
-elm,l-blends (end) e l m           ,,1
-film,l-blends (end) f i l m          ,659,1
-helm,l-blends (end) h e l m          ,,1
-alp,l-blends (end) a l p           ,,1
-help,l-blends (end) h e l p          ,168,1
-pulp,l-blends (end) p u l p          ,,1
-yelp,l-blends (end) y e l p          ,,1
-belt,l-blends (end) b e l t          ,3545,1
-felt,l-blends (end) f e l t          ,446,1
-gilt,l-blends (end) g i l t          ,,1
-jilt,l-blends (end) j i l t          ,,1
-lilt,l-blends (end) l i l t          ,,1
-melt,l-blends (end) m e l t          ,,1
-pelt,l-blends (end) p e l t          ,,1
-tilt,l-blends (end) t i l t          ,,1
-welt,l-blends (end) w e l t          ,,1
-wilt,l-blends (end) w i l t          ,,1
+gaff,-ff g a ,,1
+Jeff,-ff j e ,2260,1
+Biff,-ff b i ,,1
+miff,-ff m i ,,1
+tiff,-ff t i ,,1
+huff,-ff h u ,,1
+whiff,-ff wh i ,,1
+buff,-ff b u ,,1
+guff,-ff g u ,,1
+muff,-ff m u ,,1
+puff,-ff p u ,,1
+ruff,-ff r u ,,1
+tuff,-ff t u ,,1
+bell,-ll b e ,2644,1
+dell,-ll d e ,,1
+fell,-ll f e ,1285,1
+Nell,-ll n e ,,1
+sell,-ll s e ,1236,1
+tell,-ll t e ,167,1
+well,-ll w e ,82,1
+yell,-ll y e ,,1
+shell,-ll sh e ,4150,1
+bill,-ll b i ,476,1
+dill,-ll d i ,,1
+fill,-ll f i ,2113,1
+gill,-ll g i ,,1
+hill,-ll h i ,1444,1
+ill,-ll i  ,2877,1
+mill,-ll m i ,,1
+pill,-ll p i ,,1
+sill,-ll s i ,,1
+till,-ll t i ,2378,1
+will,-ll w i ,60,1
+chill,-ll ch i ,,1
+shill,-ll sh i ,,1
+trill,-ll t r i r-blends ,,1
+dull,-ll d u ,,1
+hull,-ll h u ,,1
+lull,-ll l u ,,1
+mull,-ll m u ,,1
+null,-ll n u ,,1
+bass,-ss b a ,,1
+mass,-ss m a ,1306,1
+pass,-ss p a ,937,1
+sass,-ss s a ,,1
+fess,-ss f e ,,1
+less,-ss l e ,257,1
+mess,-ss m e ,2519,1
+ress,-ss r e ,,1
+hiss,-ss h i ,,1
+miss,-ss m i ,825,1
+fuss,-ss f u ,,1
+muss,-ss m u ,,1
+Russ,-ss r u ,,1
+doll,-ll d o ,,1
+moll,-ll m o ,,1
+jazz,-zz j a ,4087,1
+fizz,-zz f i ,,1
+buzz,-zz b u ,,1
+razz,-zz r a ,,1
+fuzz,-zz f u ,,1
+pizzazz,-zz p i a -zz ,,2
+act,t-blends (end) a c t  ,542,1
+duct,t-blends (end) d u c t ,,1
+fact,t-blends (end) f a c t ,251,1
+pact,t-blends (end) p a c t ,,1
+sect,t-blends (end) s e c t ,,1
+tact,t-blends (end) t a c t ,,1
+aft,t-blends (end) a f t  ,,1
+daft,t-blends (end) d a f t ,,1
+deft,t-blends (end) d e f t ,,1
+gift,t-blends (end) g i f t ,1969,1
+heft,t-blends (end) h e f t ,,1
+left,t-blends (end) l e f t ,211,1
+lift,t-blends (end) l i f t ,3234,1
+loft,t-blends (end) l o f t ,,1
+raft,t-blends (end) r a f t ,,1
+rift,t-blends (end) r i f t ,,1
+sift,t-blends (end) s i f t ,,1
+tuft,t-blends (end) t u f t ,,1
+shaft,t-blends (end) sh a f t ,,1
+shift,t-blends (end) sh i f t ,2132,1
+theft,t-blends (end) th (thin) e f t ,,1
+bulb,l-blends (end) b u l b ,,1
+gild,l-blends (end) g i l d ,,1
+held,l-blends (end) h e l d ,625,1
+meld,l-blends (end) m e l d ,,1
+weld,l-blends (end) w e l d ,,1
+elf,l-blends (end) e l f  ,,1
+golf,l-blends (end) g o l f ,2530,1
+pelf,l-blends (end) p e l f ,,1
+self,l-blends (end) s e l f ,2129,1
+shelf,l-blends (end) sh e l f ,,1
+elk,l-blends (end) e l k  ,,1
+elm,l-blends (end) e l m  ,,1
+film,l-blends (end) f i l m ,659,1
+helm,l-blends (end) h e l m ,,1
+alp,l-blends (end) a l p  ,,1
+help,l-blends (end) h e l p ,168,1
+pulp,l-blends (end) p u l p ,,1
+yelp,l-blends (end) y e l p ,,1
+belt,l-blends (end) b e l t ,3545,1
+felt,l-blends (end) f e l t ,446,1
+gilt,l-blends (end) g i l t ,,1
+jilt,l-blends (end) j i l t ,,1
+lilt,l-blends (end) l i l t ,,1
+melt,l-blends (end) m e l t ,,1
+pelt,l-blends (end) p e l t ,,1
+tilt,l-blends (end) t i l t ,,1
+welt,l-blends (end) w e l t ,,1
+wilt,l-blends (end) w i l t ,,1
 stilt,l-blends (end) s t i l t s-blends        ,,1
-amp,m/n blends (end) am p            ,,1
-bump,m/n blends (end) b u m p          ,,1
-damp,m/n blends (end) d am p           ,,1
-dump,m/n blends (end) d u m p          ,,1
-hemp,m/n blends (end) h e m p          ,,1
-hump,m/n blends (end) h u m p          ,,1
-imp,m/n blends (end) i m p           ,,1
-jump,m/n blends (end) j u m p          ,2211,1
-lamp,m/n blends (end) l am p           ,,1
-limp,m/n blends (end) l i m p          ,,1
-lump,m/n blends (end) l u m p          ,,1
-pomp,m/n blends (end) p o m p          ,,1
-pump,m/n blends (end) p u m p          ,,1
-romp,m/n blends (end) r o m p          ,,1
-tamp,m/n blends (end) t am p           ,,1
-vamp,m/n blends (end) v am p           ,,1
-chomp,m/n blends (end) ch o m p          ,,1
-chump,m/n blends (end) ch u m p          ,,1
-thump,m/n blends (end) th (thin) u m p          ,,1
+amp,m/n blends (end) am p ,,1
+bump,m/n blends (end) b u m p ,,1
+damp,m/n blends (end) d am p  ,,1
+dump,m/n blends (end) d u m p ,,1
+hemp,m/n blends (end) h e m p ,,1
+hump,m/n blends (end) h u m p ,,1
+imp,m/n blends (end) i m p  ,,1
+jump,m/n blends (end) j u m p ,2211,1
+lamp,m/n blends (end) l am p  ,,1
+limp,m/n blends (end) l i m p ,,1
+lump,m/n blends (end) l u m p ,,1
+pomp,m/n blends (end) p o m p ,,1
+pump,m/n blends (end) p u m p ,,1
+romp,m/n blends (end) r o m p ,,1
+tamp,m/n blends (end) t am p  ,,1
+vamp,m/n blends (end) v am p  ,,1
+chomp,m/n blends (end) ch o m p ,,1
+chump,m/n blends (end) ch u m p ,,1
+thump,m/n blends (end) th (thin) u m p ,,1
 stomp,m/n blends (end) s-blends s t o m p        ,,1
-and,m/n blends (end) an d            ,3,1
-band,m/n blends (end) b an d           ,1548,1
-bend,m/n blends (end) b e n d          ,,1
-bond,m/n blends (end) b o n d          ,2550,1
-end,m/n blends (end) e n d           ,215,1
-fend,m/n blends (end) f e n d          ,,1
-fond,m/n blends (end) f o n d          ,,1
-fund,m/n blends (end) f u n d          ,1684,1
-hand,m/n blends (end) h an d           ,307,1
-land,m/n blends (end) l an d           ,655,1
-lend,m/n blends (end) l e n d          ,,1
-mend,m/n blends (end) m e n d          ,,1
-pond,m/n blends (end) p o n d          ,,1
-sand,m/n blends (end) s an d           ,2995,1
-send,m/n blends (end) s e n d          ,997,1
-tend,m/n blends (end) t e n d          ,1876,1
-wend,m/n blends (end) w e n d          ,,1
-ant,m/n blends (end) an t            ,,1
-bent,m/n blends (end) b e n t          ,4538,1
-bunt,m/n blends (end) b u n t          ,,1
-dent,m/n blends (end) d e n t          ,,1
-dint,m/n blends (end) d i n t          ,,1
-font,m/n blends (end) f o n t          ,,1
-hint,m/n blends (end) h i n t          ,,1
-hunt,m/n blends (end) h u n t          ,3161,1
-lent,m/n blends (end) l e n t          ,,1
-lint,m/n blends (end) l i n t          ,,1
-mint,m/n blends (end) m i n t          ,,1
-pant,m/n blends (end) p an t           ,,1
-pent,m/n blends (end) p e n t          ,,1
-punt,m/n blends (end) p u n t          ,,1
-rant,m/n blends (end) r an t           ,,1
-rent,m/n blends (end) r e n t          ,3822,1
-runt,m/n blends (end) r u n t          ,,1
-sent,m/n blends (end) s e n t          ,824,1
-tent,m/n blends (end) t e n t          ,,1
-tint,m/n blends (end) t i n t          ,,1
-vent,m/n blends (end) v e n t          ,,1
-went,m/n blends (end) w e n t          ,232,1
+and,m/n blends (end) an d ,3,1
+band,m/n blends (end) b an d  ,1548,1
+bend,m/n blends (end) b e n d ,,1
+bond,m/n blends (end) b o n d ,2550,1
+end,m/n blends (end) e n d  ,215,1
+fend,m/n blends (end) f e n d ,,1
+fond,m/n blends (end) f o n d ,,1
+fund,m/n blends (end) f u n d ,1684,1
+hand,m/n blends (end) h an d  ,307,1
+land,m/n blends (end) l an d  ,655,1
+lend,m/n blends (end) l e n d ,,1
+mend,m/n blends (end) m e n d ,,1
+pond,m/n blends (end) p o n d ,,1
+sand,m/n blends (end) s an d  ,2995,1
+send,m/n blends (end) s e n d ,997,1
+tend,m/n blends (end) t e n d ,1876,1
+wend,m/n blends (end) w e n d ,,1
+ant,m/n blends (end) an t ,,1
+bent,m/n blends (end) b e n t ,4538,1
+bunt,m/n blends (end) b u n t ,,1
+dent,m/n blends (end) d e n t ,,1
+dint,m/n blends (end) d i n t ,,1
+font,m/n blends (end) f o n t ,,1
+hint,m/n blends (end) h i n t ,,1
+hunt,m/n blends (end) h u n t ,3161,1
+lent,m/n blends (end) l e n t ,,1
+lint,m/n blends (end) l i n t ,,1
+mint,m/n blends (end) m i n t ,,1
+pant,m/n blends (end) p an t  ,,1
+pent,m/n blends (end) p e n t ,,1
+punt,m/n blends (end) p u n t ,,1
+rant,m/n blends (end) r an t  ,,1
+rent,m/n blends (end) r e n t ,3822,1
+runt,m/n blends (end) r u n t ,,1
+sent,m/n blends (end) s e n t ,824,1
+tent,m/n blends (end) t e n t ,,1
+tint,m/n blends (end) t i n t ,,1
+vent,m/n blends (end) v e n t ,,1
+went,m/n blends (end) w e n t ,232,1
 stint,m/n blends (end) s-blends s t i n t        ,,1
-apt,t-blends (end) a p t           ,,1
-rapt,t-blends (end) r a p t          ,,1
+apt,t-blends (end) a p t  ,,1
+rapt,t-blends (end) r a p t ,,1
 tempt,t-blends (end) t e m p t triple blends        ,,1
-wept,t-blends (end) w e p t          ,,1
+wept,t-blends (end) w e p t ,,1
 sculpt,t-blends (end) s-blends s c u l p t triple blends      ,,1
-ask,s-blends (end) a s k           ,370,1
-husk,s-blends (end) h u s k          ,,1
-musk,s-blends (end) m u s k          ,,1
-asp,s-blends (end) a s p           ,,1
-hasp,s-blends (end) h a s p          ,,1
-lisp,s-blends (end) l i s p          ,,1
-rasp,s-blends (end) r a s p          ,,1
-wisp,s-blends (end) w i s p          ,,1
-best,s-blends (end) b e s t          ,194,1
-bust,s-blends (end) b u s t          ,,1
-cast,s-blends (end) c a s t          ,2007,1
-dust,s-blends (end) d u s t          ,2769,1
-gust,s-blends (end) g u s t          ,,1
-fist,s-blends (end) f i s t          ,,1
-list,s-blends (end) l i s t          ,649,1
-jest,s-blends (end) j e s t          ,,1
-just,s-blends (end) j u s t          ,55,1
-last,s-blends (end) l a s t          ,138,1
-lest,s-blends (end) l e s t          ,,1
-mast,s-blends (end) m a s t          ,,1
-mist,s-blends (end) m i s t          ,,1
-must,s-blends (end) m u s t          ,203,1
-nest,s-blends (end) n e s t          ,,1
-pest,s-blends (end) p e s t          ,,1
-rest,s-blends (end) r e s t          ,536,1
-test,s-blends (end) t e s t          ,656,1
-vest,s-blends (end) v e s t          ,,1
-vast,s-blends (end) v a s t          ,2397,1
-zest,s-blends (end) z e s t          ,,1
+ask,s-blends (end) a s k  ,370,1
+husk,s-blends (end) h u s k ,,1
+musk,s-blends (end) m u s k ,,1
+asp,s-blends (end) a s p  ,,1
+hasp,s-blends (end) h a s p ,,1
+lisp,s-blends (end) l i s p ,,1
+rasp,s-blends (end) r a s p ,,1
+wisp,s-blends (end) w i s p ,,1
+best,s-blends (end) b e s t ,194,1
+bust,s-blends (end) b u s t ,,1
+cast,s-blends (end) c a s t ,2007,1
+dust,s-blends (end) d u s t ,2769,1
+gust,s-blends (end) g u s t ,,1
+fist,s-blends (end) f i s t ,,1
+list,s-blends (end) l i s t ,649,1
+jest,s-blends (end) j e s t ,,1
+just,s-blends (end) j u s t ,55,1
+last,s-blends (end) l a s t ,138,1
+lest,s-blends (end) l e s t ,,1
+mast,s-blends (end) m a s t ,,1
+mist,s-blends (end) m i s t ,,1
+must,s-blends (end) m u s t ,203,1
+nest,s-blends (end) n e s t ,,1
+pest,s-blends (end) p e s t ,,1
+rest,s-blends (end) r e s t ,536,1
+test,s-blends (end) t e s t ,656,1
+vest,s-blends (end) v e s t ,,1
+vast,s-blends (end) v a s t ,2397,1
+zest,s-blends (end) z e s t ,,1
 blest,beg. and end blends b l e s t l-blends s-blends (end)       ,,1
 trust,beg. and end blends t r u s t r-blends s-blends (end)       ,964,1
 bland,beg. and end blends b l an d l-blends m/n blends (end)        ,,1
@@ -777,19 +777,19 @@ smelt,beg. and end blends s m e l t s-blends l-blends (end) t-blends (end)      
 spend,beg. and end blends s p e n d s-blends m/n blends (end)       ,946,1
 spent,beg. and end blends s p e n t s-blends m/n blends (end) t-blends (end)      ,722,1
 stamp,beg. and end blends s t am p s-blends         ,,1
-stand,beg. and end blends s t an d          ,657,1
+stand,beg. and end blends s t an d ,657,1
 stump,beg. and end blends s t u m p s-blends m/n blends (end) p-blends (end)      ,,1
 stunt,beg. and end blends s t u n t s-blends m/n blends (end) t-blends (end)      ,,1
 dwelt,beg. and end blends d w e l t w-blends l-blends (end) t-blends (end)      ,,1
 swept,beg. and end blends s w e p t s-blends w-blends p-blends (end) t-blends (end)     ,,1
 swift,beg. and end blends s w i f t s-blends w-blends t-blends (end)      ,,1
 twist,beg. and end blends t w i s t w-blends s-blends (end) t-blends (end)      ,,1
-scram,triple blends s c r am          ,,1
+scram,triple blends s c r am ,,1
 scrap,triple blends s c r a p         ,,1
 scrimp,triple blends s c r i m p m/n blends (end) p-blends (end)      ,,1
 scrum,triple blends s c r u m         ,,1
-shred,blends and digraphs sh r e d          ,,1
-shrub,blends and digraphs sh r u b          ,,1
+shred,blends and digraphs sh r e d ,,1
+shrub,blends and digraphs sh r u b ,,1
 splint,triple blends s p l i n t m/n blends (end)       ,,1
 split,triple blends s p l i t         ,2717,1
 sprat,triple blends s p r a t         ,,1
@@ -804,144 +804,144 @@ strum,triple blends s t r u m         ,,1
 shrift,blends and digraphs sh r i f t t-blends (end)        ,,1
 splendid,triple blends s p l e n d i d      ,,2
 stripe,triple blends s t r i-e p         ,,1
-thrash,blends and digraphs th (thin) r a sh          ,,1
+thrash,blends and digraphs th (thin) r a sh ,,1
 thrift,blends and digraphs th (thin) r i f t t-blends (end)        ,,1
-throb,blends and digraphs th (thin) r o b          ,,1
-thrush,blends and digraphs th (thin) r u sh          ,,1
+throb,blends and digraphs th (thin) r o b ,,1
+thrush,blends and digraphs th (thin) r u sh ,,1
 thrust,blends and digraphs th (thin) r u s t s-blends (end) t-blends (end)       ,,1
-bless,l-blends b l e -ss          ,,1
-bliss,l-blends b l i -ss          ,,1
-bluff,l-blends b l u -ff          ,,1
-brass,r-blends b r a -ss          ,,1
-cliff,l-blends c l i -ff          ,4623,1
-cress,r-blends c r e -ss          ,,1
-dress,r-blends d r e -ss          ,1829,1
-drill,r-blends d r i -ll          ,,1
-dwell,w-blends d w e -ll          ,,1
-floss,l-blends f l o -ss          ,,1
-fluff,l-blends f l u -ff          ,,1
-frill,r-blends f r i -ll          ,,1
-glass,l-blends g l a -ss          ,1294,1
-gloss,l-blends g l o -ss          ,,1
-grass,r-blends g r a -ss          ,3000,1
-grill,r-blends g r i -ll          ,,1
-gruff,r-blends g r u -ff          ,,1
-press,r-blends p r e -ss          ,658,1
-scull,s-blends s c u -ll          ,,1
+bless,l-blends b l e -ss ,,1
+bliss,l-blends b l i -ss ,,1
+bluff,l-blends b l u -ff ,,1
+brass,r-blends b r a -ss ,,1
+cliff,l-blends c l i -ff ,4623,1
+cress,r-blends c r e -ss ,,1
+dress,r-blends d r e -ss ,1829,1
+drill,r-blends d r i -ll ,,1
+dwell,w-blends d w e -ll ,,1
+floss,l-blends f l o -ss ,,1
+fluff,l-blends f l u -ff ,,1
+frill,r-blends f r i -ll ,,1
+glass,l-blends g l a -ss ,1294,1
+gloss,l-blends g l o -ss ,,1
+grass,r-blends g r a -ss ,3000,1
+grill,r-blends g r i -ll ,,1
+gruff,r-blends g r u -ff ,,1
+press,r-blends p r e -ss ,658,1
+scull,s-blends s c u -ll ,,1
 scruff,triple blends s c r u -ff         ,,1
-shrill,blends and digraphs sh r i -ll          ,,1
-smell,s-blends s m e -ll          ,2301,1
-sniff,s-blends s n i -ff          ,,1
-snuff,s-blends s n u -ff          ,,1
-spill,s-blends s p i -ll          ,,1
-still,s-blends s t i -ll          ,126,1
-staff,s-blends s t a -ff          ,861,1
-stiff,s-blends s t i -ff          ,,1
+shrill,blends and digraphs sh r i -ll ,,1
+smell,s-blends s m e -ll ,2301,1
+sniff,s-blends s n i -ff ,,1
+snuff,s-blends s n u -ff ,,1
+spill,s-blends s p i -ll ,,1
+still,s-blends s t i -ll ,126,1
+staff,s-blends s t a -ff ,861,1
+stiff,s-blends s t i -ff ,,1
 swell,s-blends s w e -ll w-blends         ,,1
 swill,s-blends s w i -ll w-blends         ,,1
 Swiss,s-blends s w i -ss w-blends         ,,1
-truss,r-blends t r u -ss          ,,1
-twill,w-blends t w i -ll          ,,1
-frizz,r-blends f r i -zz          ,,1
-bade,a-e b d            ,,1
-fade,a-e f d            ,,1
-jade,a-e j d            ,,1
-lade,a-e l d            ,,1
-made,a-e m d            ,142,1
-wade,a-e w d            ,,1
-shade,a-e sh d            ,,1
-Abe,a-e b             ,,1
-safe,a-e s f            ,959,1
-strafe,a-e triple blends f            ,,1
-ale,a-e l             ,,1
-bale,a-e b l            ,,1
-dale,a-e d l            ,,1
-hale,a-e h l            ,,1
-kale,a-e k l            ,,1
-male,a-e m l            ,1230,1
-pale,a-e p l            ,4265,1
-sale,a-e s l            ,2349,1
-tale,a-e t l            ,3955,1
-vale,a-e v l            ,,1
-shale,a-e sh l            ,,1
-whale,a-e wh l            ,,1
-dame,a-e d m            ,,1
-fame,a-e f m            ,3942,1
-lame,a-e l m            ,,1
-name,a-e n m            ,286,1
-same,a-e s m            ,150,1
-tame,a-e t m            ,,1
-shame,a-e sh m            ,3141,1
-Jane,a-e j n            ,2922,1
-lane,a-e l n            ,3835,1
-mane,a-e m n            ,,1
-pane,a-e p n            ,,1
-sane,a-e s n            ,,1
-vane,a-e v n            ,,1
-wane,a-e w n            ,,1
-Shane,a-e sh n            ,,1
-ape,a-e p             ,,1
-nape,a-e n p            ,,1
-tape,a-e t p            ,2331,1
-shape,a-e sh p            ,1737,1
-case,a-e c s            ,241,1
-vase,a-e v s            ,,1
-ate,a-e t             ,3658,1
-date,a-e d t            ,1046,1
-fate,a-e f t            ,3651,1
-hate,a-e h t            ,1146,1
-Kate,a-e k t            ,3415,1
-late,a-e l t            ,499,1
-mate,a-e m t            ,4845,1
-rate,a-e r t            ,765,1
-Tate,a-e t t            ,,1
-Dave,a-e d v            ,2803,1
-pave,a-e p v            ,,1
-save,a-e s v            ,924,1
-wave,a-e w v            ,2444,1
-shave,a-e sh v            ,,1
-daze,a-e d z            ,,1
-faze,a-e f z            ,,1
-gaze,a-e g z            ,4546,1
-haze,a-e h z            ,,1
-maze,a-e m z            ,,1
-raze,a-e r z            ,,1
-mace,a-e m c            ,,1
-became,a-e b c m           ,575,2
-overcame,a-e v er c m          ,,3
-brive,i-e b r v           ,,1
-bide,i-e b d            ,,1
-hide,i-e h d            ,2551,1
-ride,i-e r d            ,1527,1
-side,i-e s d            ,323,1
-tide,i-e t d            ,,1
-wide,i-e w d            ,1320,1
-chide,i-e ch d            ,,1
-snide,i-e s n d s-blends          ,,1
-fife,i-e f f            ,,1
-life,i-e l f            ,139,1
-wife,i-e w f            ,510,1
-bile,i-e b l            ,,1
-file,i-e f l            ,1805,1
-mile,i-e m l            ,3554,1
-Nile,i-e n l            ,,1
-pile,i-e p l            ,4474,1
-tile,i-e t l            ,,1
-vile,i-e v l            ,,1
-dime,i-e d m            ,,1
-lime,i-e l m            ,,1
-mime,i-e m m            ,,1
-time,i-e t m            ,68,1
-dine,i-e d n            ,,1
-fine,i-e f n            ,517,1
-line,i-e l n            ,369,1
-nine,i-e n n            ,1403,1
-pine,i-e p n            ,,1
-tine,i-e t n            ,,1
-vine,i-e v n            ,,1
-wine,i-e w n            ,1897,1
-shine,i-e sh n            ,,1
-whine,i-e wh n            ,,1
-pipe,i-e p p            ,,1
-ripe,i-e r p            ,,1
-wipe,i-e w p            ,,1
+truss,r-blends t r u -ss ,,1
+twill,w-blends t w i -ll ,,1
+frizz,r-blends f r i -zz ,,1
+bade,a-e b d ,,1
+fade,a-e f d ,,1
+jade,a-e j d ,,1
+lade,a-e l d ,,1
+made,a-e m d ,142,1
+wade,a-e w d ,,1
+shade,a-e sh d ,,1
+Abe,a-e b  ,,1
+safe,a-e s f ,959,1
+strafe,a-e triple blends f ,,1
+ale,a-e l  ,,1
+bale,a-e b l ,,1
+dale,a-e d l ,,1
+hale,a-e h l ,,1
+kale,a-e k l ,,1
+male,a-e m l ,1230,1
+pale,a-e p l ,4265,1
+sale,a-e s l ,2349,1
+tale,a-e t l ,3955,1
+vale,a-e v l ,,1
+shale,a-e sh l ,,1
+whale,a-e wh l ,,1
+dame,a-e d m ,,1
+fame,a-e f m ,3942,1
+lame,a-e l m ,,1
+name,a-e n m ,286,1
+same,a-e s m ,150,1
+tame,a-e t m ,,1
+shame,a-e sh m ,3141,1
+Jane,a-e j n ,2922,1
+lane,a-e l n ,3835,1
+mane,a-e m n ,,1
+pane,a-e p n ,,1
+sane,a-e s n ,,1
+vane,a-e v n ,,1
+wane,a-e w n ,,1
+Shane,a-e sh n ,,1
+ape,a-e p  ,,1
+nape,a-e n p ,,1
+tape,a-e t p ,2331,1
+shape,a-e sh p ,1737,1
+case,a-e c s ,241,1
+vase,a-e v s ,,1
+ate,a-e t  ,3658,1
+date,a-e d t ,1046,1
+fate,a-e f t ,3651,1
+hate,a-e h t ,1146,1
+Kate,a-e k t ,3415,1
+late,a-e l t ,499,1
+mate,a-e m t ,4845,1
+rate,a-e r t ,765,1
+Tate,a-e t t ,,1
+Dave,a-e d v ,2803,1
+pave,a-e p v ,,1
+save,a-e s v ,924,1
+wave,a-e w v ,2444,1
+shave,a-e sh v ,,1
+daze,a-e d z ,,1
+faze,a-e f z ,,1
+gaze,a-e g z ,4546,1
+haze,a-e h z ,,1
+maze,a-e m z ,,1
+raze,a-e r z ,,1
+mace,a-e m c ,,1
+became,a-e b c m  ,575,2
+overcame,a-e v er c m ,,3
+brive,i-e b r v  ,,1
+bide,i-e b d ,,1
+hide,i-e h d ,2551,1
+ride,i-e r d ,1527,1
+side,i-e s d ,323,1
+tide,i-e t d ,,1
+wide,i-e w d ,1320,1
+chide,i-e ch d ,,1
+snide,i-e s n d s-blends ,,1
+fife,i-e f f ,,1
+life,i-e l f ,139,1
+wife,i-e w f ,510,1
+bile,i-e b l ,,1
+file,i-e f l ,1805,1
+mile,i-e m l ,3554,1
+Nile,i-e n l ,,1
+pile,i-e p l ,4474,1
+tile,i-e t l ,,1
+vile,i-e v l ,,1
+dime,i-e d m ,,1
+lime,i-e l m ,,1
+mime,i-e m m ,,1
+time,i-e t m ,68,1
+dine,i-e d n ,,1
+fine,i-e f n ,517,1
+line,i-e l n ,369,1
+nine,i-e n n ,1403,1
+pine,i-e p n ,,1
+tine,i-e t n ,,1
+vine,i-e v n ,,1
+wine,i-e w n ,1897,1
+shine,i-e sh n ,,1
+whine,i-e wh n ,,1
+pipe,i-e p p ,,1
+ripe,i-e r p ,,1
+wipe,i-e w p ,,1
