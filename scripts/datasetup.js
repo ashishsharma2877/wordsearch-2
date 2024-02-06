@@ -164,6 +164,7 @@ function addNewRow(word, concepts, frequency, syllables) {
 
 function populateDataTable(data)
 {
+    /*
     var tempWord, tempConcepts, tempFrequency, tempSyllables;
     for (let i = 0; i < data.length; i++) {
         for (let j = 0; j < data[i].length; j++) {
@@ -174,5 +175,11 @@ function populateDataTable(data)
         else if(j=3) {tempSyllables = data[i][j];}
         }
         addNewRow(tempWord, tempConcepts, tempFrequency, tempSyllables)
+    }
+    */
+   for(let i=0; i < data.length; i++)
+    {
+        const [tempWord, tempConcepts, tempFrequency, tempSyllables] = data[i];
+        addNewRow(tempWord, tempFrequency, tempConcepts, tempSyllables);
     }
 }
